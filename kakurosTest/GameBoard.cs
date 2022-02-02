@@ -13,6 +13,7 @@ namespace kakurosTest
         public int a1, a2, a3, a4, a5, a6;
         public int minutes, seconds;
         public int score, scoreMultiplier;
+        public int gridSize = 3;
 
 
         public void SetTime(int min, int sec)

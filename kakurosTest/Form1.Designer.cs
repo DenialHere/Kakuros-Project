@@ -147,6 +147,7 @@ namespace kakurosTest
             this.textBoxNum8y = new System.Windows.Forms.TextBox();
             this.textBoxNum2x7y = new System.Windows.Forms.TextBox();
             this.textBoxNum7y = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBoxComplex.SuspendLayout();
             this.groupBoxSize.SuspendLayout();
@@ -440,6 +441,7 @@ namespace kakurosTest
             this.radioButton9x9.Tag = "3";
             this.radioButton9x9.Text = "9X9 (Hard)";
             this.radioButton9x9.UseVisualStyleBackColor = true;
+            this.radioButton9x9.CheckedChanged += new System.EventHandler(this.radioButton9x9_CheckedChanged);
             // 
             // radioButton3x3
             // 
@@ -466,6 +468,7 @@ namespace kakurosTest
             this.textBoxNum1xy.Name = "textBoxNum1xy";
             this.textBoxNum1xy.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum1xy.TabIndex = 4;
+            this.textBoxNum1xy.Tag = "3";
             this.textBoxNum1xy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x
@@ -476,6 +479,7 @@ namespace kakurosTest
             this.textBoxNum2x.Name = "textBoxNum2x";
             this.textBoxNum2x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x.TabIndex = 5;
+            this.textBoxNum2x.Tag = "3";
             this.textBoxNum2x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2y
@@ -486,6 +490,7 @@ namespace kakurosTest
             this.textBoxNum2y.Name = "textBoxNum2y";
             this.textBoxNum2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2y.TabIndex = 6;
+            this.textBoxNum2y.Tag = "3";
             this.textBoxNum2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x2y
@@ -496,6 +501,7 @@ namespace kakurosTest
             this.textBoxNum2x2y.Name = "textBoxNum2x2y";
             this.textBoxNum2x2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x2y.TabIndex = 7;
+            this.textBoxNum2x2y.Tag = "3";
             this.textBoxNum2x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x
@@ -506,6 +512,7 @@ namespace kakurosTest
             this.textBoxNum3x.Name = "textBoxNum3x";
             this.textBoxNum3x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x.TabIndex = 9;
+            this.textBoxNum3x.Tag = "3";
             this.textBoxNum3x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x2y
@@ -516,6 +523,7 @@ namespace kakurosTest
             this.textBoxNum3x2y.Name = "textBoxNum3x2y";
             this.textBoxNum3x2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x2y.TabIndex = 10;
+            this.textBoxNum3x2y.Tag = "3";
             this.textBoxNum3x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3y
@@ -526,6 +534,7 @@ namespace kakurosTest
             this.textBoxNum3y.Name = "textBoxNum3y";
             this.textBoxNum3y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3y.TabIndex = 12;
+            this.textBoxNum3y.Tag = "3";
             this.textBoxNum3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x3y
@@ -536,6 +545,7 @@ namespace kakurosTest
             this.textBoxNum2x3y.Name = "textBoxNum2x3y";
             this.textBoxNum2x3y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x3y.TabIndex = 13;
+            this.textBoxNum2x3y.Tag = "3";
             this.textBoxNum2x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x3y
@@ -546,6 +556,7 @@ namespace kakurosTest
             this.textBoxNum3x3y.Name = "textBoxNum3x3y";
             this.textBoxNum3x3y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x3y.TabIndex = 14;
+            this.textBoxNum3x3y.Tag = "3";
             this.textBoxNum3x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x
@@ -557,6 +568,7 @@ namespace kakurosTest
             this.textBoxNum4x.Name = "textBoxNum4x";
             this.textBoxNum4x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x.TabIndex = 25;
+            this.textBoxNum4x.Tag = "6";
             this.textBoxNum4x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x
@@ -568,6 +580,7 @@ namespace kakurosTest
             this.textBoxNum5x.Name = "textBoxNum5x";
             this.textBoxNum5x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x.TabIndex = 26;
+            this.textBoxNum5x.Tag = "6";
             this.textBoxNum5x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6x
@@ -579,6 +592,7 @@ namespace kakurosTest
             this.textBoxNum6x.Name = "textBoxNum6x";
             this.textBoxNum6x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6x.TabIndex = 27;
+            this.textBoxNum6x.Tag = "6";
             this.textBoxNum6x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum7x
@@ -590,6 +604,7 @@ namespace kakurosTest
             this.textBoxNum7x.Name = "textBoxNum7x";
             this.textBoxNum7x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum7x.TabIndex = 28;
+            this.textBoxNum7x.Tag = "9";
             this.textBoxNum7x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum8x
@@ -601,6 +616,7 @@ namespace kakurosTest
             this.textBoxNum8x.Name = "textBoxNum8x";
             this.textBoxNum8x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum8x.TabIndex = 29;
+            this.textBoxNum8x.Tag = "9";
             this.textBoxNum8x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum9x
@@ -612,6 +628,7 @@ namespace kakurosTest
             this.textBoxNum9x.Name = "textBoxNum9x";
             this.textBoxNum9x.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum9x.TabIndex = 30;
+            this.textBoxNum9x.Tag = "9";
             this.textBoxNum9x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x2y
@@ -623,6 +640,7 @@ namespace kakurosTest
             this.textBoxNum4x2y.Name = "textBoxNum4x2y";
             this.textBoxNum4x2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x2y.TabIndex = 31;
+            this.textBoxNum4x2y.Tag = "6";
             this.textBoxNum4x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x2y
@@ -634,6 +652,7 @@ namespace kakurosTest
             this.textBoxNum5x2y.Name = "textBoxNum5x2y";
             this.textBoxNum5x2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x2y.TabIndex = 32;
+            this.textBoxNum5x2y.Tag = "6";
             this.textBoxNum5x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6x2y
@@ -645,6 +664,7 @@ namespace kakurosTest
             this.textBoxNum6x2y.Name = "textBoxNum6x2y";
             this.textBoxNum6x2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6x2y.TabIndex = 33;
+            this.textBoxNum6x2y.Tag = "6";
             this.textBoxNum6x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox9
@@ -656,6 +676,7 @@ namespace kakurosTest
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 53);
             this.textBox9.TabIndex = 34;
+            this.textBox9.Tag = "9";
             this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox8
@@ -667,6 +688,7 @@ namespace kakurosTest
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 53);
             this.textBox8.TabIndex = 35;
+            this.textBox8.Tag = "9";
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox7
@@ -678,6 +700,7 @@ namespace kakurosTest
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 53);
             this.textBox7.TabIndex = 36;
+            this.textBox7.Tag = "9";
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x3y
@@ -689,6 +712,7 @@ namespace kakurosTest
             this.textBoxNum4x3y.Name = "textBoxNum4x3y";
             this.textBoxNum4x3y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x3y.TabIndex = 37;
+            this.textBoxNum4x3y.Tag = "6";
             this.textBoxNum4x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x3y
@@ -700,6 +724,7 @@ namespace kakurosTest
             this.textBoxNum5x3y.Name = "textBoxNum5x3y";
             this.textBoxNum5x3y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x3y.TabIndex = 38;
+            this.textBoxNum5x3y.Tag = "6";
             this.textBoxNum5x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6x3y
@@ -711,6 +736,7 @@ namespace kakurosTest
             this.textBoxNum6x3y.Name = "textBoxNum6x3y";
             this.textBoxNum6x3y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6x3y.TabIndex = 39;
+            this.textBoxNum6x3y.Tag = "6";
             this.textBoxNum6x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox15
@@ -722,6 +748,7 @@ namespace kakurosTest
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(100, 53);
             this.textBox15.TabIndex = 40;
+            this.textBox15.Tag = "9";
             this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox14
@@ -733,6 +760,7 @@ namespace kakurosTest
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 53);
             this.textBox14.TabIndex = 41;
+            this.textBox14.Tag = "9";
             this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox13
@@ -744,6 +772,7 @@ namespace kakurosTest
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 53);
             this.textBox13.TabIndex = 42;
+            this.textBox13.Tag = "9";
             this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4y
@@ -755,6 +784,7 @@ namespace kakurosTest
             this.textBoxNum4y.Name = "textBoxNum4y";
             this.textBoxNum4y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4y.TabIndex = 43;
+            this.textBoxNum4y.Tag = "6";
             this.textBoxNum4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x4y
@@ -766,6 +796,7 @@ namespace kakurosTest
             this.textBoxNum2x4y.Name = "textBoxNum2x4y";
             this.textBoxNum2x4y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x4y.TabIndex = 44;
+            this.textBoxNum2x4y.Tag = "6";
             this.textBoxNum2x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5y
@@ -777,6 +808,7 @@ namespace kakurosTest
             this.textBoxNum5y.Name = "textBoxNum5y";
             this.textBoxNum5y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5y.TabIndex = 45;
+            this.textBoxNum5y.Tag = "6";
             this.textBoxNum5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x5y
@@ -788,6 +820,7 @@ namespace kakurosTest
             this.textBoxNum2x5y.Name = "textBoxNum2x5y";
             this.textBoxNum2x5y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x5y.TabIndex = 46;
+            this.textBoxNum2x5y.Tag = "6";
             this.textBoxNum2x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x4y
@@ -799,6 +832,7 @@ namespace kakurosTest
             this.textBoxNum3x4y.Name = "textBoxNum3x4y";
             this.textBoxNum3x4y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x4y.TabIndex = 47;
+            this.textBoxNum3x4y.Tag = "6";
             this.textBoxNum3x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x5y
@@ -810,6 +844,7 @@ namespace kakurosTest
             this.textBoxNum3x5y.Name = "textBoxNum3x5y";
             this.textBoxNum3x5y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x5y.TabIndex = 48;
+            this.textBoxNum3x5y.Tag = "6";
             this.textBoxNum3x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6y
@@ -821,6 +856,7 @@ namespace kakurosTest
             this.textBoxNum6y.Name = "textBoxNum6y";
             this.textBoxNum6y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6y.TabIndex = 49;
+            this.textBoxNum6y.Tag = "6";
             this.textBoxNum6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x6y
@@ -832,6 +868,7 @@ namespace kakurosTest
             this.textBoxNum2x6y.Name = "textBoxNum2x6y";
             this.textBoxNum2x6y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x6y.TabIndex = 50;
+            this.textBoxNum2x6y.Tag = "6";
             this.textBoxNum2x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x6y
@@ -843,6 +880,7 @@ namespace kakurosTest
             this.textBoxNum3x6y.Name = "textBoxNum3x6y";
             this.textBoxNum3x6y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x6y.TabIndex = 51;
+            this.textBoxNum3x6y.Tag = "6";
             this.textBoxNum3x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x4y
@@ -854,6 +892,7 @@ namespace kakurosTest
             this.textBoxNum4x4y.Name = "textBoxNum4x4y";
             this.textBoxNum4x4y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x4y.TabIndex = 52;
+            this.textBoxNum4x4y.Tag = "6";
             this.textBoxNum4x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x4y
@@ -865,6 +904,7 @@ namespace kakurosTest
             this.textBoxNum5x4y.Name = "textBoxNum5x4y";
             this.textBoxNum5x4y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x4y.TabIndex = 53;
+            this.textBoxNum5x4y.Tag = "6";
             this.textBoxNum5x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6x4y
@@ -876,6 +916,7 @@ namespace kakurosTest
             this.textBoxNum6x4y.Name = "textBoxNum6x4y";
             this.textBoxNum6x4y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6x4y.TabIndex = 54;
+            this.textBoxNum6x4y.Tag = "6";
             this.textBoxNum6x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox33
@@ -887,6 +928,7 @@ namespace kakurosTest
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(100, 53);
             this.textBox33.TabIndex = 55;
+            this.textBox33.Tag = "9";
             this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox32
@@ -898,6 +940,7 @@ namespace kakurosTest
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(100, 53);
             this.textBox32.TabIndex = 56;
+            this.textBox32.Tag = "9";
             this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox31
@@ -909,6 +952,7 @@ namespace kakurosTest
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(100, 53);
             this.textBox31.TabIndex = 57;
+            this.textBox31.Tag = "9";
             this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x5y
@@ -920,6 +964,7 @@ namespace kakurosTest
             this.textBoxNum4x5y.Name = "textBoxNum4x5y";
             this.textBoxNum4x5y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x5y.TabIndex = 58;
+            this.textBoxNum4x5y.Tag = "6";
             this.textBoxNum4x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x5y
@@ -931,6 +976,7 @@ namespace kakurosTest
             this.textBoxNum5x5y.Name = "textBoxNum5x5y";
             this.textBoxNum5x5y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x5y.TabIndex = 59;
+            this.textBoxNum5x5y.Tag = "6";
             this.textBoxNum5x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6x5y
@@ -942,6 +988,7 @@ namespace kakurosTest
             this.textBoxNum6x5y.Name = "textBoxNum6x5y";
             this.textBoxNum6x5y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6x5y.TabIndex = 60;
+            this.textBoxNum6x5y.Tag = "6";
             this.textBoxNum6x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox27
@@ -953,6 +1000,7 @@ namespace kakurosTest
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(100, 53);
             this.textBox27.TabIndex = 61;
+            this.textBox27.Tag = "9";
             this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox26
@@ -964,6 +1012,7 @@ namespace kakurosTest
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(100, 53);
             this.textBox26.TabIndex = 62;
+            this.textBox26.Tag = "9";
             this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox25
@@ -975,6 +1024,7 @@ namespace kakurosTest
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(100, 53);
             this.textBox25.TabIndex = 63;
+            this.textBox25.Tag = "9";
             this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x6y
@@ -986,6 +1036,7 @@ namespace kakurosTest
             this.textBoxNum4x6y.Name = "textBoxNum4x6y";
             this.textBoxNum4x6y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x6y.TabIndex = 64;
+            this.textBoxNum4x6y.Tag = "6";
             this.textBoxNum4x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x6y
@@ -997,6 +1048,7 @@ namespace kakurosTest
             this.textBoxNum5x6y.Name = "textBoxNum5x6y";
             this.textBoxNum5x6y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x6y.TabIndex = 65;
+            this.textBoxNum5x6y.Tag = "6";
             this.textBoxNum5x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6x6y
@@ -1008,6 +1060,7 @@ namespace kakurosTest
             this.textBoxNum6x6y.Name = "textBoxNum6x6y";
             this.textBoxNum6x6y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6x6y.TabIndex = 66;
+            this.textBoxNum6x6y.Tag = "6";
             this.textBoxNum6x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox21
@@ -1019,6 +1072,7 @@ namespace kakurosTest
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(100, 53);
             this.textBox21.TabIndex = 67;
+            this.textBox21.Tag = "9";
             this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox20
@@ -1030,6 +1084,7 @@ namespace kakurosTest
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(100, 53);
             this.textBox20.TabIndex = 68;
+            this.textBox20.Tag = "9";
             this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox19
@@ -1041,6 +1096,7 @@ namespace kakurosTest
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(100, 53);
             this.textBox19.TabIndex = 69;
+            this.textBox19.Tag = "9";
             this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // timerGame
@@ -1234,6 +1290,7 @@ namespace kakurosTest
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 53);
             this.textBox1.TabIndex = 100;
+            this.textBox1.Tag = "9";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
@@ -1245,6 +1302,7 @@ namespace kakurosTest
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 53);
             this.textBox2.TabIndex = 99;
+            this.textBox2.Tag = "9";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
@@ -1256,6 +1314,7 @@ namespace kakurosTest
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 53);
             this.textBox3.TabIndex = 98;
+            this.textBox3.Tag = "9";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum6x9y
@@ -1267,6 +1326,7 @@ namespace kakurosTest
             this.textBoxNum6x9y.Name = "textBoxNum6x9y";
             this.textBoxNum6x9y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum6x9y.TabIndex = 97;
+            this.textBoxNum6x9y.Tag = "9";
             this.textBoxNum6x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x9y
@@ -1278,6 +1338,7 @@ namespace kakurosTest
             this.textBoxNum5x9y.Name = "textBoxNum5x9y";
             this.textBoxNum5x9y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x9y.TabIndex = 96;
+            this.textBoxNum5x9y.Tag = "9";
             this.textBoxNum5x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x9y
@@ -1289,6 +1350,7 @@ namespace kakurosTest
             this.textBoxNum4x9y.Name = "textBoxNum4x9y";
             this.textBoxNum4x9y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x9y.TabIndex = 95;
+            this.textBoxNum4x9y.Tag = "9";
             this.textBoxNum4x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox39
@@ -1300,6 +1362,7 @@ namespace kakurosTest
             this.textBox39.Name = "textBox39";
             this.textBox39.Size = new System.Drawing.Size(100, 53);
             this.textBox39.TabIndex = 94;
+            this.textBox39.Tag = "9";
             this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox43
@@ -1311,6 +1374,7 @@ namespace kakurosTest
             this.textBox43.Name = "textBox43";
             this.textBox43.Size = new System.Drawing.Size(100, 53);
             this.textBox43.TabIndex = 93;
+            this.textBox43.Tag = "9";
             this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox45
@@ -1322,6 +1386,7 @@ namespace kakurosTest
             this.textBox45.Name = "textBox45";
             this.textBox45.Size = new System.Drawing.Size(100, 53);
             this.textBox45.TabIndex = 92;
+            this.textBox45.Tag = "9";
             this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum8x2y
@@ -1333,6 +1398,7 @@ namespace kakurosTest
             this.textBoxNum8x2y.Name = "textBoxNum8x2y";
             this.textBoxNum8x2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum8x2y.TabIndex = 91;
+            this.textBoxNum8x2y.Tag = "9";
             this.textBoxNum8x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x8y
@@ -1344,6 +1410,7 @@ namespace kakurosTest
             this.textBoxNum5x8y.Name = "textBoxNum5x8y";
             this.textBoxNum5x8y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x8y.TabIndex = 90;
+            this.textBoxNum5x8y.Tag = "9";
             this.textBoxNum5x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x8y
@@ -1355,6 +1422,7 @@ namespace kakurosTest
             this.textBoxNum4x8y.Name = "textBoxNum4x8y";
             this.textBoxNum4x8y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x8y.TabIndex = 89;
+            this.textBoxNum4x8y.Tag = "9";
             this.textBoxNum4x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox49
@@ -1366,6 +1434,7 @@ namespace kakurosTest
             this.textBox49.Name = "textBox49";
             this.textBox49.Size = new System.Drawing.Size(100, 53);
             this.textBox49.TabIndex = 88;
+            this.textBox49.Tag = "9";
             this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox50
@@ -1377,6 +1446,7 @@ namespace kakurosTest
             this.textBox50.Name = "textBox50";
             this.textBox50.Size = new System.Drawing.Size(100, 53);
             this.textBox50.TabIndex = 87;
+            this.textBox50.Tag = "9";
             this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox51
@@ -1388,6 +1458,7 @@ namespace kakurosTest
             this.textBox51.Name = "textBox51";
             this.textBox51.Size = new System.Drawing.Size(100, 53);
             this.textBox51.TabIndex = 86;
+            this.textBox51.Tag = "9";
             this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum7x2y
@@ -1399,6 +1470,7 @@ namespace kakurosTest
             this.textBoxNum7x2y.Name = "textBoxNum7x2y";
             this.textBoxNum7x2y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum7x2y.TabIndex = 85;
+            this.textBoxNum7x2y.Tag = "9";
             this.textBoxNum7x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum5x7y
@@ -1410,6 +1482,7 @@ namespace kakurosTest
             this.textBoxNum5x7y.Name = "textBoxNum5x7y";
             this.textBoxNum5x7y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum5x7y.TabIndex = 84;
+            this.textBoxNum5x7y.Tag = "9";
             this.textBoxNum5x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum4x7y
@@ -1421,6 +1494,7 @@ namespace kakurosTest
             this.textBoxNum4x7y.Name = "textBoxNum4x7y";
             this.textBoxNum4x7y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum4x7y.TabIndex = 83;
+            this.textBoxNum4x7y.Tag = "9";
             this.textBoxNum4x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x9y
@@ -1432,6 +1506,7 @@ namespace kakurosTest
             this.textBoxNum3x9y.Name = "textBoxNum3x9y";
             this.textBoxNum3x9y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x9y.TabIndex = 82;
+            this.textBoxNum3x9y.Tag = "9";
             this.textBoxNum3x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x9y
@@ -1443,6 +1518,7 @@ namespace kakurosTest
             this.textBoxNum2x9y.Name = "textBoxNum2x9y";
             this.textBoxNum2x9y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x9y.TabIndex = 81;
+            this.textBoxNum2x9y.Tag = "9";
             this.textBoxNum2x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum9y
@@ -1454,6 +1530,7 @@ namespace kakurosTest
             this.textBoxNum9y.Name = "textBoxNum9y";
             this.textBoxNum9y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum9y.TabIndex = 80;
+            this.textBoxNum9y.Tag = "9";
             this.textBoxNum9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x8y
@@ -1465,6 +1542,7 @@ namespace kakurosTest
             this.textBoxNum3x8y.Name = "textBoxNum3x8y";
             this.textBoxNum3x8y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x8y.TabIndex = 79;
+            this.textBoxNum3x8y.Tag = "9";
             this.textBoxNum3x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum3x7y
@@ -1476,6 +1554,7 @@ namespace kakurosTest
             this.textBoxNum3x7y.Name = "textBoxNum3x7y";
             this.textBoxNum3x7y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum3x7y.TabIndex = 78;
+            this.textBoxNum3x7y.Tag = "9";
             this.textBoxNum3x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x8y
@@ -1487,6 +1566,7 @@ namespace kakurosTest
             this.textBoxNum2x8y.Name = "textBoxNum2x8y";
             this.textBoxNum2x8y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x8y.TabIndex = 77;
+            this.textBoxNum2x8y.Tag = "9";
             this.textBoxNum2x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum8y
@@ -1498,6 +1578,7 @@ namespace kakurosTest
             this.textBoxNum8y.Name = "textBoxNum8y";
             this.textBoxNum8y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum8y.TabIndex = 76;
+            this.textBoxNum8y.Tag = "9";
             this.textBoxNum8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum2x7y
@@ -1509,6 +1590,7 @@ namespace kakurosTest
             this.textBoxNum2x7y.Name = "textBoxNum2x7y";
             this.textBoxNum2x7y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum2x7y.TabIndex = 75;
+            this.textBoxNum2x7y.Tag = "9";
             this.textBoxNum2x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxNum7y
@@ -1520,13 +1602,27 @@ namespace kakurosTest
             this.textBoxNum7y.Name = "textBoxNum7y";
             this.textBoxNum7y.Size = new System.Drawing.Size(100, 53);
             this.textBoxNum7y.TabIndex = 74;
+            this.textBoxNum7y.Tag = "9";
             this.textBoxNum7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(786, 154);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(39, 45);
+            this.label3.TabIndex = 101;
+            this.label3.Tag = "";
+            this.label3.Text = "6";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1334, 1592);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
@@ -1762,6 +1858,7 @@ namespace kakurosTest
         private System.Windows.Forms.TextBox textBoxNum8y;
         private System.Windows.Forms.TextBox textBoxNum2x7y;
         private System.Windows.Forms.TextBox textBoxNum7y;
+        private System.Windows.Forms.Label label3;
     }
 }
 

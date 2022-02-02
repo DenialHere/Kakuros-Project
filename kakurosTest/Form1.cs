@@ -109,12 +109,9 @@ namespace kakurosTest
             //Starting timer if user chose and option other than none
             if (!radioButtonNone.Checked) { timerGame.Start(); } else { labelSeconds.Text = "∞"; labelMinutes.Text = "∞"; }
 
-            //Reseting time limit indicators
-            labelSeconds.ForeColor = Color.Black;
-            labelMinutes.ForeColor = Color.Black;
 
             //Generating game board
-            GenerateBoard(1, gb.complexity);
+            GenerateBoard(gb.gridSize, gb.complexity);
         }
 
         private void radioButtonComplex_CheckedChanged(object sender, EventArgs e)
@@ -138,7 +135,7 @@ namespace kakurosTest
             if (textBoxNum2x3y.Text != gb.n8.ToString()) { textBoxNum2x3y.BackColor = Color.Red; mistakes++; } else { textBoxNum2x3y.BackColor = Color.Green; }
             if (textBoxNum3x3y.Text != gb.n9.ToString()) { textBoxNum3x3y.BackColor = Color.Red; mistakes++; } else { textBoxNum3x3y.BackColor = Color.Green; }
 
-            if (mistakes >= 1) { MessageBox.Show("You made " + mistakes.ToString() + " mistakes."); } else { MessageBox.Show("Congratulations you got it right!"); }
+            if (mistakes >= 1) { MessageBox.Show("You made " + mistakes.ToString() + " mistakes."); } else { MessageBox.Show("Congratulations you got it right!"); StopTimer(); }
         }
 
         private void timerGame_Tick(object sender, EventArgs e)
@@ -153,6 +150,7 @@ namespace kakurosTest
             {
                 timerGame.Stop();
                 MessageBox.Show("Fail");
+                ResetBoard();
             }
 
             if (labelSeconds.Text == "0")
@@ -256,83 +254,83 @@ namespace kakurosTest
             if (comboBoxBackColor.SelectedIndex == 6) { this.BackgroundImage = kakurosTest.Properties.Resources.BackGround05; }
             if (comboBoxBackColor.SelectedIndex == 7) { this.BackgroundImage = kakurosTest.Properties.Resources.BackGround06; }
             if (comboBoxBackColor.SelectedIndex == 8) { this.BackgroundImage = kakurosTest.Properties.Resources.BackGround07; }
+            ResetGridBoxes();
+
+
         }
 
         private void radioButton6x6_CheckedChanged(object sender, EventArgs e)
         {
-            textBoxNum4y.Enabled = true;
-            textBoxNum5y.Enabled = true;
-            textBoxNum6y.Enabled = true;
 
-            textBoxNum2x4y.Enabled = true;
-            textBoxNum2x5y.Enabled = true;
-            textBoxNum2x6y.Enabled = true;
+            foreach (Control control in Controls)
+            {
+                if (control is TextBox)
+                {
+                    if (control.Tag == "6" || control.Tag == "3")
+                    {
+                        control.Enabled = true;
+                    }
+                    else 
+                    {
+                        control.Enabled = false;
+                    }
+                }
 
-            textBoxNum3x4y.Enabled = true;
-            textBoxNum3x5y.Enabled = true;
-            textBoxNum3x6y.Enabled = true;
 
-            textBoxNum4x.Enabled = true;
-            textBoxNum5x.Enabled = true;
-            textBoxNum6x.Enabled = true;
+            }
+           
 
-            textBoxNum4x2y.Enabled = true;
-            textBoxNum4x3y.Enabled = true;
-            textBoxNum4x4y.Enabled = true;
-            textBoxNum4x5y.Enabled = true;
-            textBoxNum4x6y.Enabled = true;
-
-            textBoxNum5x2y.Enabled = true;
-            textBoxNum5x3y.Enabled = true;
-            textBoxNum5x4y.Enabled = true;
-            textBoxNum5x5y.Enabled = true;
-            textBoxNum5x6y.Enabled = true;
-
-            textBoxNum6x2y.Enabled = true;
-            textBoxNum6x3y.Enabled = true;
-            textBoxNum6x4y.Enabled = true;
-            textBoxNum6x5y.Enabled = true;
-            textBoxNum6x6y.Enabled = true;
+            gb.gridSize = 6;
+            ResetGridBoxes();
         }
 
         private void radioButton3x3_CheckedChanged(object sender, EventArgs e)
         {
-            textBoxNum4y.Enabled = false;
-            textBoxNum5y.Enabled = false;
-            textBoxNum6y.Enabled = false;
+            foreach(Control control in Controls)
+            {
+                if (control is TextBox)
+                {
+                    if (control.Tag == "3")
+                    {
+                        control.Enabled = true;
+                    }
+                    else
+                    {
+                        control.Enabled = false;
+                    }
+                }
 
-            textBoxNum2x4y.Enabled = false;
-            textBoxNum2x5y.Enabled = false;
-            textBoxNum2x6y.Enabled = false;
 
-            textBoxNum3x4y.Enabled = false;
-            textBoxNum3x5y.Enabled = false;
-            textBoxNum3x6y.Enabled = false;
+            }
+            gb.gridSize = 3;
+            ResetGridBoxes();
+        }
 
-            textBoxNum4x.Enabled = false;
-            textBoxNum5x.Enabled = false;
-            textBoxNum6x.Enabled = false;
+        public void ResetGridBoxes() {
 
-            textBoxNum4x2y.Enabled = false;
-            textBoxNum4x3y.Enabled = false;
-            textBoxNum4x4y.Enabled = false;
-            textBoxNum4x5y.Enabled = false;
-            textBoxNum4x6y.Enabled = false;
+                foreach (Control control in Controls)
+                {
+                    if (control is TextBox)
+                    {
+                        if (control.Enabled == false && comboBoxBackColor.SelectedIndex != 0)
+                        {
+                            control.BackColor = Color.Black;
+                        }
+                        else {
+                            control.BackColor = Color.White;
+                        }
+                    }
+                }
 
-            textBoxNum5x2y.Enabled = false;
-            textBoxNum5x3y.Enabled = false;
-            textBoxNum5x4y.Enabled = false;
-            textBoxNum5x5y.Enabled = false;
-            textBoxNum5x6y.Enabled = false;
-
-            textBoxNum6x2y.Enabled = false;
-            textBoxNum6x3y.Enabled = false;
-            textBoxNum6x4y.Enabled = false;
-            textBoxNum6x5y.Enabled = false;
-            textBoxNum6x6y.Enabled = false;
         }
 
         private void buttonReset_Click(object sender, EventArgs e)
+        {
+            ResetBoard();
+           
+        }
+
+        private void ResetBoard() 
         {
             foreach (Control control in Controls)
             {
@@ -345,11 +343,52 @@ namespace kakurosTest
                     control.Text = "0";
                 }
 
+                if (control is TextBox && comboBoxBackColor.SelectedIndex == 0 && control.Enabled == false)
+                {
+                    control.BackColor = Color.White;
+                }
+                if (control is TextBox && comboBoxBackColor.SelectedIndex < 0 && control.Enabled == false)
+                {
+                    control.BackColor = Color.Black;
+                }
+                if (control is TextBox && control.Enabled == true)
+                {
+                    control.BackColor = Color.White;
+                }
+
+
             }
+            StopTimer();
         }
-    
+        public void StopTimer() 
+        {
+            labelSeconds.Text = "0";
+            labelMinutes.Text = "0";
+            timerGame.Stop();
+        }
+
+        private void radioButton9x9_CheckedChanged(object sender, EventArgs e)
+        {
+            foreach (Control control in Controls)
+            {
+                if (control is TextBox)
+                {
+                    if (control.Tag == "3" || control.Tag == "6" || control.Tag == "9")
+                    {
+                        control.Enabled = true;
+                    }
+                }
+
+            }
+            gb.gridSize = 9;
+            ResetGridBoxes();
+
+        }
     }
+
 }
+
+
 
 /*  SOURCES OF MEDIA:
 
