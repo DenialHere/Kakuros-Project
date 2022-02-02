@@ -18,6 +18,7 @@ namespace kakurosTest
         //Music
         bool musicOn = false;
         SoundPlayer music = new SoundPlayer("Song01.wav");
+        int songNumber = 1;
 
         public Form1()
         {
@@ -26,22 +27,6 @@ namespace kakurosTest
             radioButtonHardComp.CheckedChanged += new EventHandler(radioButtonComplex_CheckedChanged);
             radioButtonNmComp.CheckedChanged += new EventHandler(radioButtonComplex_CheckedChanged);
             //okok
-        }
-        public void PlayMusic() 
-        {
-            if (musicOn == false)
-            {
-                music.PlayLooping();
-                buttonMusic.Image = kakurosTest.Properties.Resources.volume__1_;
-                musicOn = true;
-            }
-            else
-            {
-                buttonMusic.Image = kakurosTest.Properties.Resources.mute;
-                music.Stop();
-                musicOn = false;
-            }
-
         }
 
         private void GenerateBoard(int difficulty, int complexity)
@@ -113,7 +98,7 @@ namespace kakurosTest
         private void Form1_Load(object sender, EventArgs e)
         {
             radioButtonNmComp.Checked = true;
-
+            comboBoxBackColor.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -181,14 +166,100 @@ namespace kakurosTest
 
         private void button2_Click(object sender, EventArgs e)
         {
-            PlayMusic();
+            if (musicOn == false)
+            {
+                music.PlayLooping();
+                buttonMusic.Image = kakurosTest.Properties.Resources.volume__1_;
+                musicOn = true;
+            }
+            else
+            {
+                buttonMusic.Image = kakurosTest.Properties.Resources.mute;
+                music.Stop();
+                musicOn = false;
+            }
         }
 
         private void buttonNextSong_Click(object sender, EventArgs e)
         {
-             music = new SoundPlayer("Song02.wav");
+            if (songNumber == 1) { music = new SoundPlayer("Song02.wav"); }
+            if (songNumber == 2) { music = new SoundPlayer("Song03.wav"); }
+            if (songNumber == 3) { music = new SoundPlayer("Song04.wav"); }
+            if (songNumber == 4) { music = new SoundPlayer("Song05.wav"); }
+            if (songNumber == 5) { music = new SoundPlayer("Song06.wav"); }
+            if (songNumber == 6) { music = new SoundPlayer("Song07.wav"); }
+            if (songNumber == 7) { music = new SoundPlayer("Song08.wav"); }
+            if (songNumber == 8) { music = new SoundPlayer("Song09.wav"); }
+            if (songNumber == 9) { music = new SoundPlayer("Song01.wav");  songNumber = 0; }
+
+            buttonMusic.Image = kakurosTest.Properties.Resources.volume__1_;
+            musicOn = true;
             music.PlayLooping();
+            songNumber++;
         }
+
+        private void comboBoxBackColor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            if (comboBoxBackColor.SelectedIndex == 0)
+            {
+                this.BackColor = Color.White;
+                buttonNextSong.BackColor = Color.Transparent;
+                buttonMusic.BackColor = Color.Transparent;
+                radioButtonNone.ForeColor = Color.Black;
+                foreach (Control control in Controls)
+                {
+                    if (control is TextBox)
+                    {
+                        continue;
+                    }
+                    if (control is Button)
+                    {
+                        control.BackColor = Color.LightGray;
+                        continue;
+                    }
+                    control.ForeColor = Color.Black;
+
+                }
+
+        }
+
+            if (comboBoxBackColor.SelectedIndex == 1) 
+            {
+                this.BackColor = Color.Black;
+                buttonNextSong.BackColor = Color.White;
+                buttonMusic.BackColor = Color.White;
+                radioButtonNone.ForeColor = Color.White;
+                foreach (Control control in Controls)
+                {
+                    if (control is TextBox) 
+                    {
+                        continue;
+                    }
+                    if (control is Button)
+                    {
+                        control.BackColor = Color.Green;
+                        continue;
+                    }
+                    if (control is ComboBox) 
+                    {
+                        continue;
+                    }
+                    control.ForeColor = Color.White;
+
+                }
+
+             }
+
+            if (comboBoxBackColor.SelectedIndex == 2){this.BackgroundImage = kakurosTest.Properties.Resources.Background01;}
+            if (comboBoxBackColor.SelectedIndex == 3) { this.BackgroundImage = kakurosTest.Properties.Resources.Background02; }
+            if (comboBoxBackColor.SelectedIndex == 4) { this.BackgroundImage = kakurosTest.Properties.Resources.Background03; }
+            if (comboBoxBackColor.SelectedIndex == 5) { this.BackgroundImage = kakurosTest.Properties.Resources.BackGround04; }
+            if (comboBoxBackColor.SelectedIndex == 6) { this.BackgroundImage = kakurosTest.Properties.Resources.BackGround05; }
+            if (comboBoxBackColor.SelectedIndex == 7) { this.BackgroundImage = kakurosTest.Properties.Resources.BackGround06; }
+            if (comboBoxBackColor.SelectedIndex == 8) { this.BackgroundImage = kakurosTest.Properties.Resources.BackGround07; }
+        }
+         
     }
     }
 
@@ -215,13 +286,44 @@ namespace kakurosTest
     Music promoted by https://www.free-stock-music.com
     Creative Commons Attribution 3.0 Unported License
     https://creativecommons.org/licenses/by/3.0/deed.en_US
- 
 
+    Song03:
+    Lucid Dreaming by | e s c p | https://escp-music.bandcamp.com
+    Music promoted by https://www.free-stock-music.com
+    Attribution 4.0 International (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
+
+    Song04:
+    Back Home by | e s c p | https://escp-music.bandcamp.com
+    Music promoted by https://www.free-stock-music.com
+    Attribution 4.0 International (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
  
+    Song05:
+    Over The Ocean by | e s c p | https://escp-music.bandcamp.com
+    Music promoted by https://www.free-stock-music.com
+    Attribution 4.0 International (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
+
+    Song06:
+    Dreaming Of Island by EuGenius Music | https://soundcloud.com/eu-genius
+    Music promoted by https://www.free-stock-music.com
+    Creative Commons Attribution-ShareAlike 3.0 Unported
+    https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+    Song07:
+    A Dispute by Niya | https://soundcloud.com/niya90s
+    Music promoted by https://www.free-stock-music.com
+    Creative Commons Attribution-ShareAlike 3.0 Unported
+    https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+    Song08:
+    Eternal Springtime by | e s c p | https://escp-music.bandcamp.com
+    Music promoted by https://www.free-stock-music.com
+    Attribution 4.0 International (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
  
- 
- 
- 
+    SONG
  
  
  */

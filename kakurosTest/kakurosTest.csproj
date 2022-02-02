@@ -93,5 +93,26 @@
   <ItemGroup>
     <None Include="Resources\forward-button.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround07.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
