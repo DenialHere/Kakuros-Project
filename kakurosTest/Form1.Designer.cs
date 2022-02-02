@@ -43,83 +43,110 @@ namespace kakurosTest
             this.labelColon = new System.Windows.Forms.Label();
             this.labelTimer = new System.Windows.Forms.Label();
             this.labelMinutes = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonStart = new System.Windows.Forms.Button();
             this.radioButtonEasyComp = new System.Windows.Forms.RadioButton();
             this.groupBoxComplex = new System.Windows.Forms.GroupBox();
             this.radioButtonNmComp = new System.Windows.Forms.RadioButton();
             this.labelExplainComplex = new System.Windows.Forms.Label();
             this.radioButtonHardComp = new System.Windows.Forms.RadioButton();
             this.groupBoxSize = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.textBoxNum1 = new System.Windows.Forms.TextBox();
-            this.textBoxNum2 = new System.Windows.Forms.TextBox();
-            this.textBoxNum4 = new System.Windows.Forms.TextBox();
-            this.textBoxNum5 = new System.Windows.Forms.TextBox();
-            this.textBoxNum3 = new System.Windows.Forms.TextBox();
-            this.textBoxNum6 = new System.Windows.Forms.TextBox();
-            this.textBoxNum7 = new System.Windows.Forms.TextBox();
-            this.textBoxNum8 = new System.Windows.Forms.TextBox();
-            this.textBoxNum9 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.radioButton6x6 = new System.Windows.Forms.RadioButton();
+            this.radioButton9x9 = new System.Windows.Forms.RadioButton();
+            this.radioButton3x3 = new System.Windows.Forms.RadioButton();
+            this.textBoxNum1xy = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x = new System.Windows.Forms.TextBox();
+            this.textBoxNum2y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x2y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x2y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x3y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x3y = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x = new System.Windows.Forms.TextBox();
+            this.textBoxNum6x = new System.Windows.Forms.TextBox();
+            this.textBoxNum7x = new System.Windows.Forms.TextBox();
+            this.textBoxNum8x = new System.Windows.Forms.TextBox();
+            this.textBoxNum9x = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x2y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x2y = new System.Windows.Forms.TextBox();
+            this.textBoxNum6x2y = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x3y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x3y = new System.Windows.Forms.TextBox();
+            this.textBoxNum6x3y = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBoxNum4y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x4y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x5y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x4y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x5y = new System.Windows.Forms.TextBox();
+            this.textBoxNum6y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x6y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x6y = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x4y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x4y = new System.Windows.Forms.TextBox();
+            this.textBoxNum6x4y = new System.Windows.Forms.TextBox();
             this.textBox33 = new System.Windows.Forms.TextBox();
             this.textBox32 = new System.Windows.Forms.TextBox();
             this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x5y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x5y = new System.Windows.Forms.TextBox();
+            this.textBoxNum6x5y = new System.Windows.Forms.TextBox();
             this.textBox27 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x6y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x6y = new System.Windows.Forms.TextBox();
+            this.textBoxNum6x6y = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.timerGame = new System.Windows.Forms.Timer(this.components);
             this.groupBoxTimer = new System.Windows.Forms.GroupBox();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButtonNormal = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButtonSlow = new System.Windows.Forms.RadioButton();
+            this.radioButtonFast = new System.Windows.Forms.RadioButton();
             this.radioButtonNone = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBoxBackColor = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.buttonNextSong = new System.Windows.Forms.Button();
             this.buttonMusic = new System.Windows.Forms.Button();
+            this.comboBoxBackColor = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.buttonReset = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxNum6x9y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x9y = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x9y = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.textBoxNum8x2y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x8y = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x8y = new System.Windows.Forms.TextBox();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.textBoxNum7x2y = new System.Windows.Forms.TextBox();
+            this.textBoxNum5x7y = new System.Windows.Forms.TextBox();
+            this.textBoxNum4x7y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x9y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x9y = new System.Windows.Forms.TextBox();
+            this.textBoxNum9y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x8y = new System.Windows.Forms.TextBox();
+            this.textBoxNum3x7y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x8y = new System.Windows.Forms.TextBox();
+            this.textBoxNum8y = new System.Windows.Forms.TextBox();
+            this.textBoxNum2x7y = new System.Windows.Forms.TextBox();
+            this.textBoxNum7y = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBoxComplex.SuspendLayout();
             this.groupBoxSize.SuspendLayout();
@@ -206,7 +233,7 @@ namespace kakurosTest
             // buttonSubmit
             // 
             this.buttonSubmit.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSubmit.Location = new System.Drawing.Point(424, 661);
+            this.buttonSubmit.Location = new System.Drawing.Point(424, 891);
             this.buttonSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSubmit.Name = "buttonSubmit";
             this.buttonSubmit.Size = new System.Drawing.Size(222, 66);
@@ -285,17 +312,17 @@ namespace kakurosTest
             this.labelMinutes.TabIndex = 17;
             this.labelMinutes.Text = "00";
             // 
-            // button1
+            // buttonStart
             // 
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(168, 661);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(224, 66);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonStart.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStart.Location = new System.Drawing.Point(168, 891);
+            this.buttonStart.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(224, 66);
+            this.buttonStart.TabIndex = 18;
+            this.buttonStart.Text = "Start";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.button1_Click);
             // 
             // radioButtonEasyComp
             // 
@@ -319,7 +346,7 @@ namespace kakurosTest
             this.groupBoxComplex.Controls.Add(this.radioButtonHardComp);
             this.groupBoxComplex.Controls.Add(this.radioButtonEasyComp);
             this.groupBoxComplex.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxComplex.Location = new System.Drawing.Point(424, 786);
+            this.groupBoxComplex.Location = new System.Drawing.Point(424, 1016);
             this.groupBoxComplex.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxComplex.Name = "groupBoxComplex";
             this.groupBoxComplex.Padding = new System.Windows.Forms.Padding(4);
@@ -372,11 +399,11 @@ namespace kakurosTest
             // groupBoxSize
             // 
             this.groupBoxSize.BackColor = System.Drawing.Color.Transparent;
-            this.groupBoxSize.Controls.Add(this.radioButton1);
-            this.groupBoxSize.Controls.Add(this.radioButton2);
-            this.groupBoxSize.Controls.Add(this.radioButton3);
+            this.groupBoxSize.Controls.Add(this.radioButton6x6);
+            this.groupBoxSize.Controls.Add(this.radioButton9x9);
+            this.groupBoxSize.Controls.Add(this.radioButton3x3);
             this.groupBoxSize.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxSize.Location = new System.Drawing.Point(168, 786);
+            this.groupBoxSize.Location = new System.Drawing.Point(168, 1016);
             this.groupBoxSize.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxSize.Name = "groupBoxSize";
             this.groupBoxSize.Padding = new System.Windows.Forms.Padding(4);
@@ -385,238 +412,240 @@ namespace kakurosTest
             this.groupBoxSize.TabStop = false;
             this.groupBoxSize.Text = "Game Board Size";
             // 
-            // radioButton1
+            // radioButton6x6
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.radioButton1.Location = new System.Drawing.Point(8, 171);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(224, 43);
-            this.radioButton1.TabIndex = 23;
-            this.radioButton1.Tag = "3";
-            this.radioButton1.Text = "6X6 (Normal)";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton6x6.AutoSize = true;
+            this.radioButton6x6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6x6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.radioButton6x6.Location = new System.Drawing.Point(8, 171);
+            this.radioButton6x6.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton6x6.Name = "radioButton6x6";
+            this.radioButton6x6.Size = new System.Drawing.Size(224, 43);
+            this.radioButton6x6.TabIndex = 23;
+            this.radioButton6x6.Tag = "3";
+            this.radioButton6x6.Text = "6X6 (Normal)";
+            this.radioButton6x6.UseVisualStyleBackColor = true;
+            this.radioButton6x6.CheckedChanged += new System.EventHandler(this.radioButton6x6_CheckedChanged);
             // 
-            // radioButton2
+            // radioButton9x9
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.Color.Red;
-            this.radioButton2.Location = new System.Drawing.Point(8, 259);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(189, 43);
-            this.radioButton2.TabIndex = 21;
-            this.radioButton2.Tag = "3";
-            this.radioButton2.Text = "9X9 (Hard)";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton9x9.AutoSize = true;
+            this.radioButton9x9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9x9.ForeColor = System.Drawing.Color.Red;
+            this.radioButton9x9.Location = new System.Drawing.Point(8, 259);
+            this.radioButton9x9.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton9x9.Name = "radioButton9x9";
+            this.radioButton9x9.Size = new System.Drawing.Size(189, 43);
+            this.radioButton9x9.TabIndex = 21;
+            this.radioButton9x9.Tag = "3";
+            this.radioButton9x9.Text = "9X9 (Hard)";
+            this.radioButton9x9.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radioButton3x3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Checked = true;
-            this.radioButton3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.Color.Green;
-            this.radioButton3.Location = new System.Drawing.Point(8, 75);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(185, 43);
-            this.radioButton3.TabIndex = 19;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Tag = "1";
-            this.radioButton3.Text = "3X3 (Easy)";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3x3.AutoSize = true;
+            this.radioButton3x3.Checked = true;
+            this.radioButton3x3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3x3.ForeColor = System.Drawing.Color.Green;
+            this.radioButton3x3.Location = new System.Drawing.Point(8, 75);
+            this.radioButton3x3.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton3x3.Name = "radioButton3x3";
+            this.radioButton3x3.Size = new System.Drawing.Size(185, 43);
+            this.radioButton3x3.TabIndex = 19;
+            this.radioButton3x3.TabStop = true;
+            this.radioButton3x3.Tag = "1";
+            this.radioButton3x3.Text = "3X3 (Easy)";
+            this.radioButton3x3.UseVisualStyleBackColor = true;
+            this.radioButton3x3.CheckedChanged += new System.EventHandler(this.radioButton3x3_CheckedChanged);
             // 
-            // textBoxNum1
+            // textBoxNum1xy
             // 
-            this.textBoxNum1.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum1.Location = new System.Drawing.Point(168, 219);
-            this.textBoxNum1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum1.Name = "textBoxNum1";
-            this.textBoxNum1.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum1.TabIndex = 4;
-            this.textBoxNum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum1xy.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum1xy.Location = new System.Drawing.Point(168, 219);
+            this.textBoxNum1xy.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum1xy.Name = "textBoxNum1xy";
+            this.textBoxNum1xy.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum1xy.TabIndex = 4;
+            this.textBoxNum1xy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum2
+            // textBoxNum2x
             // 
-            this.textBoxNum2.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2.Location = new System.Drawing.Point(286, 219);
-            this.textBoxNum2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum2.Name = "textBoxNum2";
-            this.textBoxNum2.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum2.TabIndex = 5;
-            this.textBoxNum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum2x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x.Location = new System.Drawing.Point(286, 219);
+            this.textBoxNum2x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x.Name = "textBoxNum2x";
+            this.textBoxNum2x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x.TabIndex = 5;
+            this.textBoxNum2x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum4
+            // textBoxNum2y
             // 
-            this.textBoxNum4.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4.Location = new System.Drawing.Point(168, 287);
-            this.textBoxNum4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum4.Name = "textBoxNum4";
-            this.textBoxNum4.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum4.TabIndex = 6;
-            this.textBoxNum4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2y.Location = new System.Drawing.Point(168, 287);
+            this.textBoxNum2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2y.Name = "textBoxNum2y";
+            this.textBoxNum2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2y.TabIndex = 6;
+            this.textBoxNum2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum5
+            // textBoxNum2x2y
             // 
-            this.textBoxNum5.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5.Location = new System.Drawing.Point(288, 287);
-            this.textBoxNum5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum5.Name = "textBoxNum5";
-            this.textBoxNum5.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum5.TabIndex = 7;
-            this.textBoxNum5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum2x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x2y.Location = new System.Drawing.Point(288, 287);
+            this.textBoxNum2x2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x2y.Name = "textBoxNum2x2y";
+            this.textBoxNum2x2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x2y.TabIndex = 7;
+            this.textBoxNum2x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum3
+            // textBoxNum3x
             // 
-            this.textBoxNum3.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3.Location = new System.Drawing.Point(404, 215);
-            this.textBoxNum3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum3.Name = "textBoxNum3";
-            this.textBoxNum3.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum3.TabIndex = 9;
-            this.textBoxNum3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum3x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x.Location = new System.Drawing.Point(404, 215);
+            this.textBoxNum3x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x.Name = "textBoxNum3x";
+            this.textBoxNum3x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x.TabIndex = 9;
+            this.textBoxNum3x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum6
+            // textBoxNum3x2y
             // 
-            this.textBoxNum6.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6.Location = new System.Drawing.Point(406, 285);
-            this.textBoxNum6.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum6.Name = "textBoxNum6";
-            this.textBoxNum6.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum6.TabIndex = 10;
-            this.textBoxNum6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum3x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x2y.Location = new System.Drawing.Point(406, 285);
+            this.textBoxNum3x2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x2y.Name = "textBoxNum3x2y";
+            this.textBoxNum3x2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x2y.TabIndex = 10;
+            this.textBoxNum3x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum7
+            // textBoxNum3y
             // 
-            this.textBoxNum7.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum7.Location = new System.Drawing.Point(168, 356);
-            this.textBoxNum7.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum7.Name = "textBoxNum7";
-            this.textBoxNum7.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum7.TabIndex = 12;
-            this.textBoxNum7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3y.Location = new System.Drawing.Point(168, 356);
+            this.textBoxNum3y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3y.Name = "textBoxNum3y";
+            this.textBoxNum3y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3y.TabIndex = 12;
+            this.textBoxNum3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum8
+            // textBoxNum2x3y
             // 
-            this.textBoxNum8.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum8.Location = new System.Drawing.Point(288, 356);
-            this.textBoxNum8.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum8.Name = "textBoxNum8";
-            this.textBoxNum8.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum8.TabIndex = 13;
-            this.textBoxNum8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum2x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x3y.Location = new System.Drawing.Point(288, 356);
+            this.textBoxNum2x3y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x3y.Name = "textBoxNum2x3y";
+            this.textBoxNum2x3y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x3y.TabIndex = 13;
+            this.textBoxNum2x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxNum9
+            // textBoxNum3x3y
             // 
-            this.textBoxNum9.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum9.Location = new System.Drawing.Point(406, 354);
-            this.textBoxNum9.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNum9.Name = "textBoxNum9";
-            this.textBoxNum9.Size = new System.Drawing.Size(100, 53);
-            this.textBoxNum9.TabIndex = 14;
-            this.textBoxNum9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum3x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x3y.Location = new System.Drawing.Point(406, 354);
+            this.textBoxNum3x3y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x3y.Name = "textBoxNum3x3y";
+            this.textBoxNum3x3y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x3y.TabIndex = 14;
+            this.textBoxNum3x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // textBoxNum4x
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(522, 213);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 53);
-            this.textBox3.TabIndex = 25;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum4x.Enabled = false;
+            this.textBoxNum4x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x.Location = new System.Drawing.Point(522, 213);
+            this.textBoxNum4x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x.Name = "textBoxNum4x";
+            this.textBoxNum4x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x.TabIndex = 25;
+            this.textBoxNum4x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // textBoxNum5x
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(640, 213);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 53);
-            this.textBox2.TabIndex = 26;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum5x.Enabled = false;
+            this.textBoxNum5x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x.Location = new System.Drawing.Point(640, 213);
+            this.textBoxNum5x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x.Name = "textBoxNum5x";
+            this.textBoxNum5x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x.TabIndex = 26;
+            this.textBoxNum5x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // textBoxNum6x
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(758, 212);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 53);
-            this.textBox1.TabIndex = 27;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum6x.Enabled = false;
+            this.textBoxNum6x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6x.Location = new System.Drawing.Point(758, 212);
+            this.textBoxNum6x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6x.Name = "textBoxNum6x";
+            this.textBoxNum6x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6x.TabIndex = 27;
+            this.textBoxNum6x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox6
+            // textBoxNum7x
             // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(876, 212);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 53);
-            this.textBox6.TabIndex = 28;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum7x.Enabled = false;
+            this.textBoxNum7x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum7x.Location = new System.Drawing.Point(876, 212);
+            this.textBoxNum7x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum7x.Name = "textBoxNum7x";
+            this.textBoxNum7x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum7x.TabIndex = 28;
+            this.textBoxNum7x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // textBoxNum8x
             // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(994, 212);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 53);
-            this.textBox5.TabIndex = 29;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum8x.Enabled = false;
+            this.textBoxNum8x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum8x.Location = new System.Drawing.Point(994, 212);
+            this.textBoxNum8x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum8x.Name = "textBoxNum8x";
+            this.textBoxNum8x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum8x.TabIndex = 29;
+            this.textBoxNum8x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // textBoxNum9x
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(1112, 208);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 53);
-            this.textBox4.TabIndex = 30;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum9x.Enabled = false;
+            this.textBoxNum9x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum9x.Location = new System.Drawing.Point(1112, 208);
+            this.textBoxNum9x.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum9x.Name = "textBoxNum9x";
+            this.textBoxNum9x.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum9x.TabIndex = 30;
+            this.textBoxNum9x.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox12
+            // textBoxNum4x2y
             // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(522, 285);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 53);
-            this.textBox12.TabIndex = 31;
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum4x2y.Enabled = false;
+            this.textBoxNum4x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x2y.Location = new System.Drawing.Point(522, 285);
+            this.textBoxNum4x2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x2y.Name = "textBoxNum4x2y";
+            this.textBoxNum4x2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x2y.TabIndex = 31;
+            this.textBoxNum4x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox11
+            // textBoxNum5x2y
             // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(640, 285);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 53);
-            this.textBox11.TabIndex = 32;
-            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum5x2y.Enabled = false;
+            this.textBoxNum5x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x2y.Location = new System.Drawing.Point(640, 285);
+            this.textBoxNum5x2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x2y.Name = "textBoxNum5x2y";
+            this.textBoxNum5x2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x2y.TabIndex = 32;
+            this.textBoxNum5x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox10
+            // textBoxNum6x2y
             // 
-            this.textBox10.Enabled = false;
-            this.textBox10.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(758, 281);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 53);
-            this.textBox10.TabIndex = 33;
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum6x2y.Enabled = false;
+            this.textBoxNum6x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6x2y.Location = new System.Drawing.Point(758, 281);
+            this.textBoxNum6x2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6x2y.Name = "textBoxNum6x2y";
+            this.textBoxNum6x2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6x2y.TabIndex = 33;
+            this.textBoxNum6x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox9
             // 
@@ -651,38 +680,38 @@ namespace kakurosTest
             this.textBox7.TabIndex = 36;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox18
+            // textBoxNum4x3y
             // 
-            this.textBox18.Enabled = false;
-            this.textBox18.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(522, 354);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 53);
-            this.textBox18.TabIndex = 37;
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum4x3y.Enabled = false;
+            this.textBoxNum4x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x3y.Location = new System.Drawing.Point(522, 354);
+            this.textBoxNum4x3y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x3y.Name = "textBoxNum4x3y";
+            this.textBoxNum4x3y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x3y.TabIndex = 37;
+            this.textBoxNum4x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox17
+            // textBoxNum5x3y
             // 
-            this.textBox17.Enabled = false;
-            this.textBox17.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(640, 354);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 53);
-            this.textBox17.TabIndex = 38;
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum5x3y.Enabled = false;
+            this.textBoxNum5x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x3y.Location = new System.Drawing.Point(640, 354);
+            this.textBoxNum5x3y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x3y.Name = "textBoxNum5x3y";
+            this.textBoxNum5x3y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x3y.TabIndex = 38;
+            this.textBoxNum5x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox16
+            // textBoxNum6x3y
             // 
-            this.textBox16.Enabled = false;
-            this.textBox16.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(758, 352);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 53);
-            this.textBox16.TabIndex = 39;
-            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum6x3y.Enabled = false;
+            this.textBoxNum6x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6x3y.Location = new System.Drawing.Point(758, 352);
+            this.textBoxNum6x3y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6x3y.Name = "textBoxNum6x3y";
+            this.textBoxNum6x3y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6x3y.TabIndex = 39;
+            this.textBoxNum6x3y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox15
             // 
@@ -717,137 +746,137 @@ namespace kakurosTest
             this.textBox13.TabIndex = 42;
             this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox45
+            // textBoxNum4y
             // 
-            this.textBox45.Enabled = false;
-            this.textBox45.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox45.Location = new System.Drawing.Point(168, 423);
-            this.textBox45.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(100, 53);
-            this.textBox45.TabIndex = 43;
-            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum4y.Enabled = false;
+            this.textBoxNum4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4y.Location = new System.Drawing.Point(168, 423);
+            this.textBoxNum4y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4y.Name = "textBoxNum4y";
+            this.textBoxNum4y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4y.TabIndex = 43;
+            this.textBoxNum4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox44
+            // textBoxNum2x4y
             // 
-            this.textBox44.Enabled = false;
-            this.textBox44.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox44.Location = new System.Drawing.Point(286, 423);
-            this.textBox44.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(100, 53);
-            this.textBox44.TabIndex = 44;
-            this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum2x4y.Enabled = false;
+            this.textBoxNum2x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x4y.Location = new System.Drawing.Point(286, 423);
+            this.textBoxNum2x4y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x4y.Name = "textBoxNum2x4y";
+            this.textBoxNum2x4y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x4y.TabIndex = 44;
+            this.textBoxNum2x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox43
+            // textBoxNum5y
             // 
-            this.textBox43.Enabled = false;
-            this.textBox43.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox43.Location = new System.Drawing.Point(168, 490);
-            this.textBox43.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(100, 53);
-            this.textBox43.TabIndex = 45;
-            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum5y.Enabled = false;
+            this.textBoxNum5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5y.Location = new System.Drawing.Point(168, 490);
+            this.textBoxNum5y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5y.Name = "textBoxNum5y";
+            this.textBoxNum5y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5y.TabIndex = 45;
+            this.textBoxNum5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox42
+            // textBoxNum2x5y
             // 
-            this.textBox42.Enabled = false;
-            this.textBox42.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(288, 490);
-            this.textBox42.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(100, 53);
-            this.textBox42.TabIndex = 46;
-            this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum2x5y.Enabled = false;
+            this.textBoxNum2x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x5y.Location = new System.Drawing.Point(288, 490);
+            this.textBoxNum2x5y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x5y.Name = "textBoxNum2x5y";
+            this.textBoxNum2x5y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x5y.TabIndex = 46;
+            this.textBoxNum2x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox41
+            // textBoxNum3x4y
             // 
-            this.textBox41.Enabled = false;
-            this.textBox41.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox41.Location = new System.Drawing.Point(404, 423);
-            this.textBox41.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(100, 53);
-            this.textBox41.TabIndex = 47;
-            this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum3x4y.Enabled = false;
+            this.textBoxNum3x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x4y.Location = new System.Drawing.Point(404, 423);
+            this.textBoxNum3x4y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x4y.Name = "textBoxNum3x4y";
+            this.textBoxNum3x4y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x4y.TabIndex = 47;
+            this.textBoxNum3x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox40
+            // textBoxNum3x5y
             // 
-            this.textBox40.Enabled = false;
-            this.textBox40.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox40.Location = new System.Drawing.Point(406, 492);
-            this.textBox40.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(100, 53);
-            this.textBox40.TabIndex = 48;
-            this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum3x5y.Enabled = false;
+            this.textBoxNum3x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x5y.Location = new System.Drawing.Point(406, 492);
+            this.textBoxNum3x5y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x5y.Name = "textBoxNum3x5y";
+            this.textBoxNum3x5y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x5y.TabIndex = 48;
+            this.textBoxNum3x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox39
+            // textBoxNum6y
             // 
-            this.textBox39.Enabled = false;
-            this.textBox39.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.Location = new System.Drawing.Point(168, 560);
-            this.textBox39.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(100, 53);
-            this.textBox39.TabIndex = 49;
-            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum6y.Enabled = false;
+            this.textBoxNum6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6y.Location = new System.Drawing.Point(168, 560);
+            this.textBoxNum6y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6y.Name = "textBoxNum6y";
+            this.textBoxNum6y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6y.TabIndex = 49;
+            this.textBoxNum6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox38
+            // textBoxNum2x6y
             // 
-            this.textBox38.Enabled = false;
-            this.textBox38.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(286, 560);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(100, 53);
-            this.textBox38.TabIndex = 50;
-            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum2x6y.Enabled = false;
+            this.textBoxNum2x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x6y.Location = new System.Drawing.Point(286, 560);
+            this.textBoxNum2x6y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x6y.Name = "textBoxNum2x6y";
+            this.textBoxNum2x6y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x6y.TabIndex = 50;
+            this.textBoxNum2x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox37
+            // textBoxNum3x6y
             // 
-            this.textBox37.Enabled = false;
-            this.textBox37.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(404, 562);
-            this.textBox37.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(100, 53);
-            this.textBox37.TabIndex = 51;
-            this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum3x6y.Enabled = false;
+            this.textBoxNum3x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x6y.Location = new System.Drawing.Point(404, 562);
+            this.textBoxNum3x6y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x6y.Name = "textBoxNum3x6y";
+            this.textBoxNum3x6y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x6y.TabIndex = 51;
+            this.textBoxNum3x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox36
+            // textBoxNum4x4y
             // 
-            this.textBox36.Enabled = false;
-            this.textBox36.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(522, 423);
-            this.textBox36.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(100, 53);
-            this.textBox36.TabIndex = 52;
-            this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum4x4y.Enabled = false;
+            this.textBoxNum4x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x4y.Location = new System.Drawing.Point(522, 423);
+            this.textBoxNum4x4y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x4y.Name = "textBoxNum4x4y";
+            this.textBoxNum4x4y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x4y.TabIndex = 52;
+            this.textBoxNum4x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox35
+            // textBoxNum5x4y
             // 
-            this.textBox35.Enabled = false;
-            this.textBox35.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(640, 423);
-            this.textBox35.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(100, 53);
-            this.textBox35.TabIndex = 53;
-            this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum5x4y.Enabled = false;
+            this.textBoxNum5x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x4y.Location = new System.Drawing.Point(640, 423);
+            this.textBoxNum5x4y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x4y.Name = "textBoxNum5x4y";
+            this.textBoxNum5x4y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x4y.TabIndex = 53;
+            this.textBoxNum5x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox34
+            // textBoxNum6x4y
             // 
-            this.textBox34.Enabled = false;
-            this.textBox34.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(758, 421);
-            this.textBox34.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(100, 53);
-            this.textBox34.TabIndex = 54;
-            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum6x4y.Enabled = false;
+            this.textBoxNum6x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6x4y.Location = new System.Drawing.Point(758, 421);
+            this.textBoxNum6x4y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6x4y.Name = "textBoxNum6x4y";
+            this.textBoxNum6x4y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6x4y.TabIndex = 54;
+            this.textBoxNum6x4y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox33
             // 
@@ -882,38 +911,38 @@ namespace kakurosTest
             this.textBox31.TabIndex = 57;
             this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox30
+            // textBoxNum4x5y
             // 
-            this.textBox30.Enabled = false;
-            this.textBox30.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(522, 494);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(100, 53);
-            this.textBox30.TabIndex = 58;
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum4x5y.Enabled = false;
+            this.textBoxNum4x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x5y.Location = new System.Drawing.Point(522, 494);
+            this.textBoxNum4x5y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x5y.Name = "textBoxNum4x5y";
+            this.textBoxNum4x5y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x5y.TabIndex = 58;
+            this.textBoxNum4x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox29
+            // textBoxNum5x5y
             // 
-            this.textBox29.Enabled = false;
-            this.textBox29.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(640, 494);
-            this.textBox29.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(100, 53);
-            this.textBox29.TabIndex = 59;
-            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum5x5y.Enabled = false;
+            this.textBoxNum5x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x5y.Location = new System.Drawing.Point(640, 494);
+            this.textBoxNum5x5y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x5y.Name = "textBoxNum5x5y";
+            this.textBoxNum5x5y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x5y.TabIndex = 59;
+            this.textBoxNum5x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox28
+            // textBoxNum6x5y
             // 
-            this.textBox28.Enabled = false;
-            this.textBox28.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.Location = new System.Drawing.Point(758, 490);
-            this.textBox28.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(100, 53);
-            this.textBox28.TabIndex = 60;
-            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum6x5y.Enabled = false;
+            this.textBoxNum6x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6x5y.Location = new System.Drawing.Point(758, 490);
+            this.textBoxNum6x5y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6x5y.Name = "textBoxNum6x5y";
+            this.textBoxNum6x5y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6x5y.TabIndex = 60;
+            this.textBoxNum6x5y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox27
             // 
@@ -948,38 +977,38 @@ namespace kakurosTest
             this.textBox25.TabIndex = 63;
             this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox24
+            // textBoxNum4x6y
             // 
-            this.textBox24.Enabled = false;
-            this.textBox24.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.Location = new System.Drawing.Point(522, 563);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(100, 53);
-            this.textBox24.TabIndex = 64;
-            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum4x6y.Enabled = false;
+            this.textBoxNum4x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x6y.Location = new System.Drawing.Point(522, 563);
+            this.textBoxNum4x6y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x6y.Name = "textBoxNum4x6y";
+            this.textBoxNum4x6y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x6y.TabIndex = 64;
+            this.textBoxNum4x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox23
+            // textBoxNum5x6y
             // 
-            this.textBox23.Enabled = false;
-            this.textBox23.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(640, 563);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(100, 53);
-            this.textBox23.TabIndex = 65;
-            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum5x6y.Enabled = false;
+            this.textBoxNum5x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x6y.Location = new System.Drawing.Point(640, 563);
+            this.textBoxNum5x6y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x6y.Name = "textBoxNum5x6y";
+            this.textBoxNum5x6y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x6y.TabIndex = 65;
+            this.textBoxNum5x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox22
+            // textBoxNum6x6y
             // 
-            this.textBox22.Enabled = false;
-            this.textBox22.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(758, 562);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(100, 53);
-            this.textBox22.TabIndex = 66;
-            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNum6x6y.Enabled = false;
+            this.textBoxNum6x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6x6y.Location = new System.Drawing.Point(758, 562);
+            this.textBoxNum6x6y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6x6y.Name = "textBoxNum6x6y";
+            this.textBoxNum6x6y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6x6y.TabIndex = 66;
+            this.textBoxNum6x6y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox21
             // 
@@ -1022,13 +1051,13 @@ namespace kakurosTest
             // groupBoxTimer
             // 
             this.groupBoxTimer.BackColor = System.Drawing.Color.Transparent;
-            this.groupBoxTimer.Controls.Add(this.radioButton4);
+            this.groupBoxTimer.Controls.Add(this.radioButtonNormal);
             this.groupBoxTimer.Controls.Add(this.label2);
-            this.groupBoxTimer.Controls.Add(this.radioButton7);
-            this.groupBoxTimer.Controls.Add(this.radioButton5);
+            this.groupBoxTimer.Controls.Add(this.radioButtonSlow);
+            this.groupBoxTimer.Controls.Add(this.radioButtonFast);
             this.groupBoxTimer.Controls.Add(this.radioButtonNone);
             this.groupBoxTimer.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxTimer.Location = new System.Drawing.Point(424, 957);
+            this.groupBoxTimer.Location = new System.Drawing.Point(424, 1187);
             this.groupBoxTimer.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxTimer.Name = "groupBoxTimer";
             this.groupBoxTimer.Padding = new System.Windows.Forms.Padding(4);
@@ -1037,19 +1066,19 @@ namespace kakurosTest
             this.groupBoxTimer.TabStop = false;
             this.groupBoxTimer.Text = "Timer";
             // 
-            // radioButton4
+            // radioButtonNormal
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.radioButton4.Location = new System.Drawing.Point(315, 88);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(147, 43);
-            this.radioButton4.TabIndex = 23;
-            this.radioButton4.Tag = "3";
-            this.radioButton4.Text = "Normal";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButtonNormal.AutoSize = true;
+            this.radioButtonNormal.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonNormal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.radioButtonNormal.Location = new System.Drawing.Point(315, 88);
+            this.radioButtonNormal.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButtonNormal.Name = "radioButtonNormal";
+            this.radioButtonNormal.Size = new System.Drawing.Size(147, 43);
+            this.radioButtonNormal.TabIndex = 23;
+            this.radioButtonNormal.Tag = "3";
+            this.radioButtonNormal.Text = "Normal";
+            this.radioButtonNormal.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -1062,33 +1091,33 @@ namespace kakurosTest
             this.label2.TabIndex = 22;
             this.label2.Text = "How much time you have to complete\r\n";
             // 
-            // radioButton7
+            // radioButtonSlow
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.ForeColor = System.Drawing.Color.Green;
-            this.radioButton7.Location = new System.Drawing.Point(167, 88);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(112, 43);
-            this.radioButton7.TabIndex = 24;
-            this.radioButton7.Tag = "1";
-            this.radioButton7.Text = "Slow";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButtonSlow.AutoSize = true;
+            this.radioButtonSlow.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonSlow.ForeColor = System.Drawing.Color.Green;
+            this.radioButtonSlow.Location = new System.Drawing.Point(167, 88);
+            this.radioButtonSlow.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButtonSlow.Name = "radioButtonSlow";
+            this.radioButtonSlow.Size = new System.Drawing.Size(112, 43);
+            this.radioButtonSlow.TabIndex = 24;
+            this.radioButtonSlow.Tag = "1";
+            this.radioButtonSlow.Text = "Slow";
+            this.radioButtonSlow.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // radioButtonFast
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.ForeColor = System.Drawing.Color.Red;
-            this.radioButton5.Location = new System.Drawing.Point(498, 88);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(102, 43);
-            this.radioButton5.TabIndex = 21;
-            this.radioButton5.Tag = "3";
-            this.radioButton5.Text = "Fast";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButtonFast.AutoSize = true;
+            this.radioButtonFast.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonFast.ForeColor = System.Drawing.Color.Red;
+            this.radioButtonFast.Location = new System.Drawing.Point(498, 88);
+            this.radioButtonFast.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButtonFast.Name = "radioButtonFast";
+            this.radioButtonFast.Size = new System.Drawing.Size(102, 43);
+            this.radioButtonFast.TabIndex = 21;
+            this.radioButtonFast.Tag = "3";
+            this.radioButtonFast.Text = "Fast";
+            this.radioButtonFast.UseVisualStyleBackColor = true;
             // 
             // radioButtonNone
             // 
@@ -1112,7 +1141,7 @@ namespace kakurosTest
             this.groupBox1.Controls.Add(this.buttonNextSong);
             this.groupBox1.Controls.Add(this.buttonMusic);
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(1068, 786);
+            this.groupBox1.Location = new System.Drawing.Point(1068, 1016);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
@@ -1120,52 +1149,6 @@ namespace kakurosTest
             this.groupBox1.TabIndex = 25;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sound Settings";
-            // 
-            // comboBoxBackColor
-            // 
-            this.comboBoxBackColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxBackColor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxBackColor.FormattingEnabled = true;
-            this.comboBoxBackColor.Items.AddRange(new object[] {
-            "Default",
-            "Dark",
-            "Tile",
-            "Wood",
-            "Christmas",
-            "Futuristic",
-            "Space",
-            "Nature",
-            "Colorful"});
-            this.comboBoxBackColor.Location = new System.Drawing.Point(28, 46);
-            this.comboBoxBackColor.Name = "comboBoxBackColor";
-            this.comboBoxBackColor.Size = new System.Drawing.Size(237, 47);
-            this.comboBoxBackColor.TabIndex = 70;
-            this.comboBoxBackColor.SelectedIndexChanged += new System.EventHandler(this.comboBoxBackColor_SelectedIndexChanged);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.comboBoxBackColor);
-            this.groupBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(928, 626);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(292, 138);
-            this.groupBox2.TabIndex = 72;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Background";
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(686, 661);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(220, 66);
-            this.button2.TabIndex = 73;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // buttonNextSong
             // 
@@ -1195,76 +1178,447 @@ namespace kakurosTest
             this.buttonMusic.UseVisualStyleBackColor = false;
             this.buttonMusic.Click += new System.EventHandler(this.button2_Click);
             // 
+            // comboBoxBackColor
+            // 
+            this.comboBoxBackColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxBackColor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxBackColor.FormattingEnabled = true;
+            this.comboBoxBackColor.Items.AddRange(new object[] {
+            "Default",
+            "Dark",
+            "Tile",
+            "Wood",
+            "Christmas",
+            "Futuristic",
+            "Space",
+            "Nature",
+            "Colorful"});
+            this.comboBoxBackColor.Location = new System.Drawing.Point(28, 46);
+            this.comboBoxBackColor.Name = "comboBoxBackColor";
+            this.comboBoxBackColor.Size = new System.Drawing.Size(237, 47);
+            this.comboBoxBackColor.TabIndex = 70;
+            this.comboBoxBackColor.SelectedIndexChanged += new System.EventHandler(this.comboBoxBackColor_SelectedIndexChanged);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.comboBoxBackColor);
+            this.groupBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(928, 856);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(292, 138);
+            this.groupBox2.TabIndex = 72;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Background";
+            // 
+            // buttonReset
+            // 
+            this.buttonReset.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonReset.Location = new System.Drawing.Point(686, 891);
+            this.buttonReset.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonReset.Name = "buttonReset";
+            this.buttonReset.Size = new System.Drawing.Size(220, 66);
+            this.buttonReset.TabIndex = 73;
+            this.buttonReset.Text = "Reset";
+            this.buttonReset.UseVisualStyleBackColor = true;
+            this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(1112, 768);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 53);
+            this.textBox1.TabIndex = 100;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(994, 770);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 53);
+            this.textBox2.TabIndex = 99;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(876, 770);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 53);
+            this.textBox3.TabIndex = 98;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum6x9y
+            // 
+            this.textBoxNum6x9y.Enabled = false;
+            this.textBoxNum6x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum6x9y.Location = new System.Drawing.Point(758, 770);
+            this.textBoxNum6x9y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum6x9y.Name = "textBoxNum6x9y";
+            this.textBoxNum6x9y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum6x9y.TabIndex = 97;
+            this.textBoxNum6x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum5x9y
+            // 
+            this.textBoxNum5x9y.Enabled = false;
+            this.textBoxNum5x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x9y.Location = new System.Drawing.Point(640, 771);
+            this.textBoxNum5x9y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x9y.Name = "textBoxNum5x9y";
+            this.textBoxNum5x9y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x9y.TabIndex = 96;
+            this.textBoxNum5x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum4x9y
+            // 
+            this.textBoxNum4x9y.Enabled = false;
+            this.textBoxNum4x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x9y.Location = new System.Drawing.Point(522, 771);
+            this.textBoxNum4x9y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x9y.Name = "textBoxNum4x9y";
+            this.textBoxNum4x9y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x9y.TabIndex = 95;
+            this.textBoxNum4x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox39
+            // 
+            this.textBox39.Enabled = false;
+            this.textBox39.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox39.Location = new System.Drawing.Point(1112, 696);
+            this.textBox39.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(100, 53);
+            this.textBox39.TabIndex = 94;
+            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox43
+            // 
+            this.textBox43.Enabled = false;
+            this.textBox43.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox43.Location = new System.Drawing.Point(994, 698);
+            this.textBox43.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(100, 53);
+            this.textBox43.TabIndex = 93;
+            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox45
+            // 
+            this.textBox45.Enabled = false;
+            this.textBox45.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox45.Location = new System.Drawing.Point(876, 698);
+            this.textBox45.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(100, 53);
+            this.textBox45.TabIndex = 92;
+            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum8x2y
+            // 
+            this.textBoxNum8x2y.Enabled = false;
+            this.textBoxNum8x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum8x2y.Location = new System.Drawing.Point(758, 698);
+            this.textBoxNum8x2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum8x2y.Name = "textBoxNum8x2y";
+            this.textBoxNum8x2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum8x2y.TabIndex = 91;
+            this.textBoxNum8x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum5x8y
+            // 
+            this.textBoxNum5x8y.Enabled = false;
+            this.textBoxNum5x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x8y.Location = new System.Drawing.Point(640, 702);
+            this.textBoxNum5x8y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x8y.Name = "textBoxNum5x8y";
+            this.textBoxNum5x8y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x8y.TabIndex = 90;
+            this.textBoxNum5x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum4x8y
+            // 
+            this.textBoxNum4x8y.Enabled = false;
+            this.textBoxNum4x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x8y.Location = new System.Drawing.Point(522, 702);
+            this.textBoxNum4x8y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x8y.Name = "textBoxNum4x8y";
+            this.textBoxNum4x8y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x8y.TabIndex = 89;
+            this.textBoxNum4x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox49
+            // 
+            this.textBox49.Enabled = false;
+            this.textBox49.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox49.Location = new System.Drawing.Point(1112, 625);
+            this.textBox49.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox49.Name = "textBox49";
+            this.textBox49.Size = new System.Drawing.Size(100, 53);
+            this.textBox49.TabIndex = 88;
+            this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox50
+            // 
+            this.textBox50.Enabled = false;
+            this.textBox50.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox50.Location = new System.Drawing.Point(994, 629);
+            this.textBox50.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox50.Name = "textBox50";
+            this.textBox50.Size = new System.Drawing.Size(100, 53);
+            this.textBox50.TabIndex = 87;
+            this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox51
+            // 
+            this.textBox51.Enabled = false;
+            this.textBox51.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox51.Location = new System.Drawing.Point(876, 629);
+            this.textBox51.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox51.Name = "textBox51";
+            this.textBox51.Size = new System.Drawing.Size(100, 53);
+            this.textBox51.TabIndex = 86;
+            this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum7x2y
+            // 
+            this.textBoxNum7x2y.Enabled = false;
+            this.textBoxNum7x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum7x2y.Location = new System.Drawing.Point(758, 629);
+            this.textBoxNum7x2y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum7x2y.Name = "textBoxNum7x2y";
+            this.textBoxNum7x2y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum7x2y.TabIndex = 85;
+            this.textBoxNum7x2y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum5x7y
+            // 
+            this.textBoxNum5x7y.Enabled = false;
+            this.textBoxNum5x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum5x7y.Location = new System.Drawing.Point(640, 631);
+            this.textBoxNum5x7y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum5x7y.Name = "textBoxNum5x7y";
+            this.textBoxNum5x7y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum5x7y.TabIndex = 84;
+            this.textBoxNum5x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum4x7y
+            // 
+            this.textBoxNum4x7y.Enabled = false;
+            this.textBoxNum4x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum4x7y.Location = new System.Drawing.Point(522, 631);
+            this.textBoxNum4x7y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum4x7y.Name = "textBoxNum4x7y";
+            this.textBoxNum4x7y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum4x7y.TabIndex = 83;
+            this.textBoxNum4x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum3x9y
+            // 
+            this.textBoxNum3x9y.Enabled = false;
+            this.textBoxNum3x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x9y.Location = new System.Drawing.Point(404, 770);
+            this.textBoxNum3x9y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x9y.Name = "textBoxNum3x9y";
+            this.textBoxNum3x9y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x9y.TabIndex = 82;
+            this.textBoxNum3x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum2x9y
+            // 
+            this.textBoxNum2x9y.Enabled = false;
+            this.textBoxNum2x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x9y.Location = new System.Drawing.Point(286, 768);
+            this.textBoxNum2x9y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x9y.Name = "textBoxNum2x9y";
+            this.textBoxNum2x9y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x9y.TabIndex = 81;
+            this.textBoxNum2x9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum9y
+            // 
+            this.textBoxNum9y.Enabled = false;
+            this.textBoxNum9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum9y.Location = new System.Drawing.Point(168, 768);
+            this.textBoxNum9y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum9y.Name = "textBoxNum9y";
+            this.textBoxNum9y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum9y.TabIndex = 80;
+            this.textBoxNum9y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum3x8y
+            // 
+            this.textBoxNum3x8y.Enabled = false;
+            this.textBoxNum3x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x8y.Location = new System.Drawing.Point(406, 700);
+            this.textBoxNum3x8y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x8y.Name = "textBoxNum3x8y";
+            this.textBoxNum3x8y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x8y.TabIndex = 79;
+            this.textBoxNum3x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum3x7y
+            // 
+            this.textBoxNum3x7y.Enabled = false;
+            this.textBoxNum3x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum3x7y.Location = new System.Drawing.Point(404, 631);
+            this.textBoxNum3x7y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum3x7y.Name = "textBoxNum3x7y";
+            this.textBoxNum3x7y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum3x7y.TabIndex = 78;
+            this.textBoxNum3x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum2x8y
+            // 
+            this.textBoxNum2x8y.Enabled = false;
+            this.textBoxNum2x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x8y.Location = new System.Drawing.Point(288, 698);
+            this.textBoxNum2x8y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x8y.Name = "textBoxNum2x8y";
+            this.textBoxNum2x8y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x8y.TabIndex = 77;
+            this.textBoxNum2x8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum8y
+            // 
+            this.textBoxNum8y.Enabled = false;
+            this.textBoxNum8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum8y.Location = new System.Drawing.Point(168, 698);
+            this.textBoxNum8y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum8y.Name = "textBoxNum8y";
+            this.textBoxNum8y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum8y.TabIndex = 76;
+            this.textBoxNum8y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum2x7y
+            // 
+            this.textBoxNum2x7y.Enabled = false;
+            this.textBoxNum2x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum2x7y.Location = new System.Drawing.Point(286, 631);
+            this.textBoxNum2x7y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum2x7y.Name = "textBoxNum2x7y";
+            this.textBoxNum2x7y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum2x7y.TabIndex = 75;
+            this.textBoxNum2x7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxNum7y
+            // 
+            this.textBoxNum7y.Enabled = false;
+            this.textBoxNum7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNum7y.Location = new System.Drawing.Point(168, 631);
+            this.textBoxNum7y.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxNum7y.Name = "textBoxNum7y";
+            this.textBoxNum7y.Size = new System.Drawing.Size(100, 53);
+            this.textBoxNum7y.TabIndex = 74;
+            this.textBoxNum7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1334, 1592);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxNum6x9y);
+            this.Controls.Add(this.textBoxNum5x9y);
+            this.Controls.Add(this.textBoxNum4x9y);
+            this.Controls.Add(this.textBox39);
+            this.Controls.Add(this.textBox43);
+            this.Controls.Add(this.textBox45);
+            this.Controls.Add(this.textBoxNum8x2y);
+            this.Controls.Add(this.textBoxNum5x8y);
+            this.Controls.Add(this.textBoxNum4x8y);
+            this.Controls.Add(this.textBox49);
+            this.Controls.Add(this.textBox50);
+            this.Controls.Add(this.textBox51);
+            this.Controls.Add(this.textBoxNum7x2y);
+            this.Controls.Add(this.textBoxNum5x7y);
+            this.Controls.Add(this.textBoxNum4x7y);
+            this.Controls.Add(this.textBoxNum3x9y);
+            this.Controls.Add(this.textBoxNum2x9y);
+            this.Controls.Add(this.textBoxNum9y);
+            this.Controls.Add(this.textBoxNum3x8y);
+            this.Controls.Add(this.textBoxNum3x7y);
+            this.Controls.Add(this.textBoxNum2x8y);
+            this.Controls.Add(this.textBoxNum8y);
+            this.Controls.Add(this.textBoxNum2x7y);
+            this.Controls.Add(this.textBoxNum7y);
+            this.Controls.Add(this.buttonStart);
+            this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxTimer);
             this.Controls.Add(this.textBox19);
             this.Controls.Add(this.textBox20);
             this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.textBox24);
+            this.Controls.Add(this.textBoxNum6x6y);
+            this.Controls.Add(this.textBoxNum5x6y);
+            this.Controls.Add(this.textBoxNum4x6y);
             this.Controls.Add(this.textBox25);
             this.Controls.Add(this.textBox26);
             this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.textBox29);
-            this.Controls.Add(this.textBox30);
+            this.Controls.Add(this.textBoxNum6x5y);
+            this.Controls.Add(this.textBoxNum5x5y);
+            this.Controls.Add(this.textBoxNum4x5y);
             this.Controls.Add(this.textBox31);
             this.Controls.Add(this.textBox32);
             this.Controls.Add(this.textBox33);
-            this.Controls.Add(this.textBox34);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox36);
-            this.Controls.Add(this.textBox37);
-            this.Controls.Add(this.textBox38);
-            this.Controls.Add(this.textBox39);
-            this.Controls.Add(this.textBox40);
-            this.Controls.Add(this.textBox41);
-            this.Controls.Add(this.textBox42);
-            this.Controls.Add(this.textBox43);
-            this.Controls.Add(this.textBox44);
-            this.Controls.Add(this.textBox45);
+            this.Controls.Add(this.textBoxNum6x4y);
+            this.Controls.Add(this.textBoxNum5x4y);
+            this.Controls.Add(this.textBoxNum4x4y);
+            this.Controls.Add(this.textBoxNum3x6y);
+            this.Controls.Add(this.textBoxNum2x6y);
+            this.Controls.Add(this.textBoxNum6y);
+            this.Controls.Add(this.textBoxNum3x5y);
+            this.Controls.Add(this.textBoxNum3x4y);
+            this.Controls.Add(this.textBoxNum2x5y);
+            this.Controls.Add(this.textBoxNum5y);
+            this.Controls.Add(this.textBoxNum2x4y);
+            this.Controls.Add(this.textBoxNum4y);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.textBox14);
             this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.textBoxNum6x3y);
+            this.Controls.Add(this.textBoxNum5x3y);
+            this.Controls.Add(this.textBoxNum4x3y);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxNum6x2y);
+            this.Controls.Add(this.textBoxNum5x2y);
+            this.Controls.Add(this.textBoxNum4x2y);
+            this.Controls.Add(this.textBoxNum9x);
+            this.Controls.Add(this.textBoxNum8x);
+            this.Controls.Add(this.textBoxNum7x);
+            this.Controls.Add(this.textBoxNum6x);
+            this.Controls.Add(this.textBoxNum5x);
+            this.Controls.Add(this.textBoxNum4x);
             this.Controls.Add(this.groupBoxSize);
             this.Controls.Add(this.groupBoxComplex);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonSubmit);
-            this.Controls.Add(this.textBoxNum9);
-            this.Controls.Add(this.textBoxNum8);
-            this.Controls.Add(this.textBoxNum7);
+            this.Controls.Add(this.textBoxNum3x3y);
+            this.Controls.Add(this.textBoxNum2x3y);
+            this.Controls.Add(this.textBoxNum3y);
             this.Controls.Add(this.labelNum3y);
-            this.Controls.Add(this.textBoxNum6);
-            this.Controls.Add(this.textBoxNum3);
+            this.Controls.Add(this.textBoxNum3x2y);
+            this.Controls.Add(this.textBoxNum3x);
             this.Controls.Add(this.labelNum3x);
-            this.Controls.Add(this.textBoxNum5);
-            this.Controls.Add(this.textBoxNum4);
-            this.Controls.Add(this.textBoxNum2);
-            this.Controls.Add(this.textBoxNum1);
+            this.Controls.Add(this.textBoxNum2x2y);
+            this.Controls.Add(this.textBoxNum2y);
+            this.Controls.Add(this.textBoxNum2x);
+            this.Controls.Add(this.textBoxNum1xy);
             this.Controls.Add(this.labelNum2y);
             this.Controls.Add(this.labelNum1y);
             this.Controls.Add(this.labelNum2x);
@@ -1300,67 +1654,67 @@ namespace kakurosTest
         private System.Windows.Forms.Button buttonSubmit;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.RadioButton radioButtonEasyComp;
         private System.Windows.Forms.GroupBox groupBoxComplex;
         private System.Windows.Forms.RadioButton radioButtonHardComp;
         private System.Windows.Forms.Label labelExplainComplex;
         private System.Windows.Forms.RadioButton radioButtonNmComp;
         private System.Windows.Forms.GroupBox groupBoxSize;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.TextBox textBoxNum1;
-        private System.Windows.Forms.TextBox textBoxNum2;
-        private System.Windows.Forms.TextBox textBoxNum4;
-        private System.Windows.Forms.TextBox textBoxNum5;
-        private System.Windows.Forms.TextBox textBoxNum3;
-        private System.Windows.Forms.TextBox textBoxNum6;
-        private System.Windows.Forms.TextBox textBoxNum7;
-        private System.Windows.Forms.TextBox textBoxNum8;
-        private System.Windows.Forms.TextBox textBoxNum9;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.RadioButton radioButton6x6;
+        private System.Windows.Forms.RadioButton radioButton9x9;
+        private System.Windows.Forms.RadioButton radioButton3x3;
+        private System.Windows.Forms.TextBox textBoxNum1xy;
+        private System.Windows.Forms.TextBox textBoxNum2x;
+        private System.Windows.Forms.TextBox textBoxNum2y;
+        private System.Windows.Forms.TextBox textBoxNum2x2y;
+        private System.Windows.Forms.TextBox textBoxNum3x;
+        private System.Windows.Forms.TextBox textBoxNum3x2y;
+        private System.Windows.Forms.TextBox textBoxNum3y;
+        private System.Windows.Forms.TextBox textBoxNum2x3y;
+        private System.Windows.Forms.TextBox textBoxNum3x3y;
+        private System.Windows.Forms.TextBox textBoxNum4x;
+        private System.Windows.Forms.TextBox textBoxNum5x;
+        private System.Windows.Forms.TextBox textBoxNum6x;
+        private System.Windows.Forms.TextBox textBoxNum7x;
+        private System.Windows.Forms.TextBox textBoxNum8x;
+        private System.Windows.Forms.TextBox textBoxNum9x;
+        private System.Windows.Forms.TextBox textBoxNum4x2y;
+        private System.Windows.Forms.TextBox textBoxNum5x2y;
+        private System.Windows.Forms.TextBox textBoxNum6x2y;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBoxNum4x3y;
+        private System.Windows.Forms.TextBox textBoxNum5x3y;
+        private System.Windows.Forms.TextBox textBoxNum6x3y;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox textBoxNum4y;
+        private System.Windows.Forms.TextBox textBoxNum2x4y;
+        private System.Windows.Forms.TextBox textBoxNum5y;
+        private System.Windows.Forms.TextBox textBoxNum2x5y;
+        private System.Windows.Forms.TextBox textBoxNum3x4y;
+        private System.Windows.Forms.TextBox textBoxNum3x5y;
+        private System.Windows.Forms.TextBox textBoxNum6y;
+        private System.Windows.Forms.TextBox textBoxNum2x6y;
+        private System.Windows.Forms.TextBox textBoxNum3x6y;
+        private System.Windows.Forms.TextBox textBoxNum4x4y;
+        private System.Windows.Forms.TextBox textBoxNum5x4y;
+        private System.Windows.Forms.TextBox textBoxNum6x4y;
         private System.Windows.Forms.TextBox textBox33;
         private System.Windows.Forms.TextBox textBox32;
         private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox textBoxNum4x5y;
+        private System.Windows.Forms.TextBox textBoxNum5x5y;
+        private System.Windows.Forms.TextBox textBoxNum6x5y;
         private System.Windows.Forms.TextBox textBox27;
         private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBoxNum4x6y;
+        private System.Windows.Forms.TextBox textBoxNum5x6y;
+        private System.Windows.Forms.TextBox textBoxNum6x6y;
         private System.Windows.Forms.TextBox textBox21;
         private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.TextBox textBox19;
@@ -1369,10 +1723,10 @@ namespace kakurosTest
         private System.Windows.Forms.Label labelColon;
         private System.Windows.Forms.Label labelTimer;
         private System.Windows.Forms.GroupBox groupBoxTimer;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButtonNormal;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButtonSlow;
+        private System.Windows.Forms.RadioButton radioButtonFast;
         private System.Windows.Forms.RadioButton radioButtonNone;
         private System.Windows.Forms.Button buttonMusic;
         private System.Windows.Forms.Label labelSeconds;
@@ -1380,7 +1734,34 @@ namespace kakurosTest
         private System.Windows.Forms.Button buttonNextSong;
         private System.Windows.Forms.ComboBox comboBoxBackColor;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxNum6x9y;
+        private System.Windows.Forms.TextBox textBoxNum5x9y;
+        private System.Windows.Forms.TextBox textBoxNum4x9y;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.TextBox textBoxNum8x2y;
+        private System.Windows.Forms.TextBox textBoxNum5x8y;
+        private System.Windows.Forms.TextBox textBoxNum4x8y;
+        private System.Windows.Forms.TextBox textBox49;
+        private System.Windows.Forms.TextBox textBox50;
+        private System.Windows.Forms.TextBox textBox51;
+        private System.Windows.Forms.TextBox textBoxNum7x2y;
+        private System.Windows.Forms.TextBox textBoxNum5x7y;
+        private System.Windows.Forms.TextBox textBoxNum4x7y;
+        private System.Windows.Forms.TextBox textBoxNum3x9y;
+        private System.Windows.Forms.TextBox textBoxNum2x9y;
+        private System.Windows.Forms.TextBox textBoxNum9y;
+        private System.Windows.Forms.TextBox textBoxNum3x8y;
+        private System.Windows.Forms.TextBox textBoxNum3x7y;
+        private System.Windows.Forms.TextBox textBoxNum2x8y;
+        private System.Windows.Forms.TextBox textBoxNum8y;
+        private System.Windows.Forms.TextBox textBoxNum2x7y;
+        private System.Windows.Forms.TextBox textBoxNum7y;
     }
 }
 

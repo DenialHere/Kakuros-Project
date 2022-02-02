@@ -12,5 +12,15 @@ namespace kakurosTest
         public int n1,n2,n3,n4,n5,n6,n7,n8,n9;
         public int a1, a2, a3, a4, a5, a6;
         public int minutes, seconds;
+        public int score, scoreMultiplier;
+
+
+        public void SetTime(int min, int sec)
+        {
+            this.seconds = sec;
+            this.minutes = min;
+        }
     }
+
+   
 }
