@@ -147,7 +147,12 @@ namespace kakurosTest
             this.textBoxNum8y = new System.Windows.Forms.TextBox();
             this.textBoxNum2x7y = new System.Windows.Forms.TextBox();
             this.textBoxNum7y = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelNum5x = new System.Windows.Forms.Label();
+            this.labelNum4x = new System.Windows.Forms.Label();
+            this.labelNum6x = new System.Windows.Forms.Label();
+            this.labelNum7x = new System.Windows.Forms.Label();
+            this.labelNum8x = new System.Windows.Forms.Label();
+            this.labelNum9x = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBoxComplex.SuspendLayout();
             this.groupBoxSize.SuspendLayout();
@@ -210,7 +215,7 @@ namespace kakurosTest
             // 
             this.labelNum3x.AutoSize = true;
             this.labelNum3x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNum3x.Location = new System.Drawing.Point(434, 154);
+            this.labelNum3x.Location = new System.Drawing.Point(432, 154);
             this.labelNum3x.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNum3x.Name = "labelNum3x";
             this.labelNum3x.Size = new System.Drawing.Size(39, 45);
@@ -474,7 +479,7 @@ namespace kakurosTest
             // textBoxNum2x
             // 
             this.textBoxNum2x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x.Location = new System.Drawing.Point(286, 219);
+            this.textBoxNum2x.Location = new System.Drawing.Point(284, 219);
             this.textBoxNum2x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x.Name = "textBoxNum2x";
             this.textBoxNum2x.Size = new System.Drawing.Size(100, 53);
@@ -496,7 +501,7 @@ namespace kakurosTest
             // textBoxNum2x2y
             // 
             this.textBoxNum2x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x2y.Location = new System.Drawing.Point(288, 287);
+            this.textBoxNum2x2y.Location = new System.Drawing.Point(284, 287);
             this.textBoxNum2x2y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x2y.Name = "textBoxNum2x2y";
             this.textBoxNum2x2y.Size = new System.Drawing.Size(100, 53);
@@ -507,7 +512,7 @@ namespace kakurosTest
             // textBoxNum3x
             // 
             this.textBoxNum3x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x.Location = new System.Drawing.Point(404, 215);
+            this.textBoxNum3x.Location = new System.Drawing.Point(400, 219);
             this.textBoxNum3x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x.Name = "textBoxNum3x";
             this.textBoxNum3x.Size = new System.Drawing.Size(100, 53);
@@ -518,7 +523,7 @@ namespace kakurosTest
             // textBoxNum3x2y
             // 
             this.textBoxNum3x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x2y.Location = new System.Drawing.Point(406, 285);
+            this.textBoxNum3x2y.Location = new System.Drawing.Point(400, 287);
             this.textBoxNum3x2y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x2y.Name = "textBoxNum3x2y";
             this.textBoxNum3x2y.Size = new System.Drawing.Size(100, 53);
@@ -529,7 +534,7 @@ namespace kakurosTest
             // textBoxNum3y
             // 
             this.textBoxNum3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3y.Location = new System.Drawing.Point(168, 356);
+            this.textBoxNum3y.Location = new System.Drawing.Point(168, 355);
             this.textBoxNum3y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3y.Name = "textBoxNum3y";
             this.textBoxNum3y.Size = new System.Drawing.Size(100, 53);
@@ -540,7 +545,7 @@ namespace kakurosTest
             // textBoxNum2x3y
             // 
             this.textBoxNum2x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x3y.Location = new System.Drawing.Point(288, 356);
+            this.textBoxNum2x3y.Location = new System.Drawing.Point(284, 355);
             this.textBoxNum2x3y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x3y.Name = "textBoxNum2x3y";
             this.textBoxNum2x3y.Size = new System.Drawing.Size(100, 53);
@@ -551,7 +556,7 @@ namespace kakurosTest
             // textBoxNum3x3y
             // 
             this.textBoxNum3x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x3y.Location = new System.Drawing.Point(406, 354);
+            this.textBoxNum3x3y.Location = new System.Drawing.Point(400, 355);
             this.textBoxNum3x3y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x3y.Name = "textBoxNum3x3y";
             this.textBoxNum3x3y.Size = new System.Drawing.Size(100, 53);
@@ -563,7 +568,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x.Enabled = false;
             this.textBoxNum4x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x.Location = new System.Drawing.Point(522, 213);
+            this.textBoxNum4x.Location = new System.Drawing.Point(516, 219);
             this.textBoxNum4x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x.Name = "textBoxNum4x";
             this.textBoxNum4x.Size = new System.Drawing.Size(100, 53);
@@ -575,7 +580,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x.Enabled = false;
             this.textBoxNum5x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x.Location = new System.Drawing.Point(640, 213);
+            this.textBoxNum5x.Location = new System.Drawing.Point(632, 219);
             this.textBoxNum5x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x.Name = "textBoxNum5x";
             this.textBoxNum5x.Size = new System.Drawing.Size(100, 53);
@@ -587,7 +592,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6x.Enabled = false;
             this.textBoxNum6x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6x.Location = new System.Drawing.Point(758, 212);
+            this.textBoxNum6x.Location = new System.Drawing.Point(748, 219);
             this.textBoxNum6x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6x.Name = "textBoxNum6x";
             this.textBoxNum6x.Size = new System.Drawing.Size(100, 53);
@@ -599,7 +604,7 @@ namespace kakurosTest
             // 
             this.textBoxNum7x.Enabled = false;
             this.textBoxNum7x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum7x.Location = new System.Drawing.Point(876, 212);
+            this.textBoxNum7x.Location = new System.Drawing.Point(864, 219);
             this.textBoxNum7x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum7x.Name = "textBoxNum7x";
             this.textBoxNum7x.Size = new System.Drawing.Size(100, 53);
@@ -611,7 +616,7 @@ namespace kakurosTest
             // 
             this.textBoxNum8x.Enabled = false;
             this.textBoxNum8x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum8x.Location = new System.Drawing.Point(994, 212);
+            this.textBoxNum8x.Location = new System.Drawing.Point(980, 219);
             this.textBoxNum8x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum8x.Name = "textBoxNum8x";
             this.textBoxNum8x.Size = new System.Drawing.Size(100, 53);
@@ -623,7 +628,7 @@ namespace kakurosTest
             // 
             this.textBoxNum9x.Enabled = false;
             this.textBoxNum9x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum9x.Location = new System.Drawing.Point(1112, 208);
+            this.textBoxNum9x.Location = new System.Drawing.Point(1096, 219);
             this.textBoxNum9x.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum9x.Name = "textBoxNum9x";
             this.textBoxNum9x.Size = new System.Drawing.Size(100, 53);
@@ -635,7 +640,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x2y.Enabled = false;
             this.textBoxNum4x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x2y.Location = new System.Drawing.Point(522, 285);
+            this.textBoxNum4x2y.Location = new System.Drawing.Point(516, 287);
             this.textBoxNum4x2y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x2y.Name = "textBoxNum4x2y";
             this.textBoxNum4x2y.Size = new System.Drawing.Size(100, 53);
@@ -647,7 +652,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x2y.Enabled = false;
             this.textBoxNum5x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x2y.Location = new System.Drawing.Point(640, 285);
+            this.textBoxNum5x2y.Location = new System.Drawing.Point(632, 287);
             this.textBoxNum5x2y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x2y.Name = "textBoxNum5x2y";
             this.textBoxNum5x2y.Size = new System.Drawing.Size(100, 53);
@@ -659,7 +664,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6x2y.Enabled = false;
             this.textBoxNum6x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6x2y.Location = new System.Drawing.Point(758, 281);
+            this.textBoxNum6x2y.Location = new System.Drawing.Point(748, 287);
             this.textBoxNum6x2y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6x2y.Name = "textBoxNum6x2y";
             this.textBoxNum6x2y.Size = new System.Drawing.Size(100, 53);
@@ -671,7 +676,7 @@ namespace kakurosTest
             // 
             this.textBox9.Enabled = false;
             this.textBox9.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(876, 281);
+            this.textBox9.Location = new System.Drawing.Point(864, 287);
             this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 53);
@@ -683,7 +688,7 @@ namespace kakurosTest
             // 
             this.textBox8.Enabled = false;
             this.textBox8.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(994, 281);
+            this.textBox8.Location = new System.Drawing.Point(980, 287);
             this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 53);
@@ -695,7 +700,7 @@ namespace kakurosTest
             // 
             this.textBox7.Enabled = false;
             this.textBox7.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(1112, 279);
+            this.textBox7.Location = new System.Drawing.Point(1096, 287);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 53);
@@ -707,7 +712,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x3y.Enabled = false;
             this.textBoxNum4x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x3y.Location = new System.Drawing.Point(522, 354);
+            this.textBoxNum4x3y.Location = new System.Drawing.Point(516, 355);
             this.textBoxNum4x3y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x3y.Name = "textBoxNum4x3y";
             this.textBoxNum4x3y.Size = new System.Drawing.Size(100, 53);
@@ -719,7 +724,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x3y.Enabled = false;
             this.textBoxNum5x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x3y.Location = new System.Drawing.Point(640, 354);
+            this.textBoxNum5x3y.Location = new System.Drawing.Point(632, 355);
             this.textBoxNum5x3y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x3y.Name = "textBoxNum5x3y";
             this.textBoxNum5x3y.Size = new System.Drawing.Size(100, 53);
@@ -731,7 +736,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6x3y.Enabled = false;
             this.textBoxNum6x3y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6x3y.Location = new System.Drawing.Point(758, 352);
+            this.textBoxNum6x3y.Location = new System.Drawing.Point(748, 355);
             this.textBoxNum6x3y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6x3y.Name = "textBoxNum6x3y";
             this.textBoxNum6x3y.Size = new System.Drawing.Size(100, 53);
@@ -743,7 +748,7 @@ namespace kakurosTest
             // 
             this.textBox15.Enabled = false;
             this.textBox15.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(876, 352);
+            this.textBox15.Location = new System.Drawing.Point(864, 355);
             this.textBox15.Margin = new System.Windows.Forms.Padding(4);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(100, 53);
@@ -755,7 +760,7 @@ namespace kakurosTest
             // 
             this.textBox14.Enabled = false;
             this.textBox14.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(994, 352);
+            this.textBox14.Location = new System.Drawing.Point(980, 355);
             this.textBox14.Margin = new System.Windows.Forms.Padding(4);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 53);
@@ -767,7 +772,7 @@ namespace kakurosTest
             // 
             this.textBox13.Enabled = false;
             this.textBox13.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(1112, 348);
+            this.textBox13.Location = new System.Drawing.Point(1096, 355);
             this.textBox13.Margin = new System.Windows.Forms.Padding(4);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 53);
@@ -791,7 +796,7 @@ namespace kakurosTest
             // 
             this.textBoxNum2x4y.Enabled = false;
             this.textBoxNum2x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x4y.Location = new System.Drawing.Point(286, 423);
+            this.textBoxNum2x4y.Location = new System.Drawing.Point(284, 423);
             this.textBoxNum2x4y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x4y.Name = "textBoxNum2x4y";
             this.textBoxNum2x4y.Size = new System.Drawing.Size(100, 53);
@@ -803,7 +808,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5y.Enabled = false;
             this.textBoxNum5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5y.Location = new System.Drawing.Point(168, 490);
+            this.textBoxNum5y.Location = new System.Drawing.Point(168, 491);
             this.textBoxNum5y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5y.Name = "textBoxNum5y";
             this.textBoxNum5y.Size = new System.Drawing.Size(100, 53);
@@ -815,7 +820,7 @@ namespace kakurosTest
             // 
             this.textBoxNum2x5y.Enabled = false;
             this.textBoxNum2x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x5y.Location = new System.Drawing.Point(288, 490);
+            this.textBoxNum2x5y.Location = new System.Drawing.Point(284, 491);
             this.textBoxNum2x5y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x5y.Name = "textBoxNum2x5y";
             this.textBoxNum2x5y.Size = new System.Drawing.Size(100, 53);
@@ -827,7 +832,7 @@ namespace kakurosTest
             // 
             this.textBoxNum3x4y.Enabled = false;
             this.textBoxNum3x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x4y.Location = new System.Drawing.Point(404, 423);
+            this.textBoxNum3x4y.Location = new System.Drawing.Point(400, 423);
             this.textBoxNum3x4y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x4y.Name = "textBoxNum3x4y";
             this.textBoxNum3x4y.Size = new System.Drawing.Size(100, 53);
@@ -839,7 +844,7 @@ namespace kakurosTest
             // 
             this.textBoxNum3x5y.Enabled = false;
             this.textBoxNum3x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x5y.Location = new System.Drawing.Point(406, 492);
+            this.textBoxNum3x5y.Location = new System.Drawing.Point(400, 491);
             this.textBoxNum3x5y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x5y.Name = "textBoxNum3x5y";
             this.textBoxNum3x5y.Size = new System.Drawing.Size(100, 53);
@@ -851,7 +856,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6y.Enabled = false;
             this.textBoxNum6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6y.Location = new System.Drawing.Point(168, 560);
+            this.textBoxNum6y.Location = new System.Drawing.Point(168, 559);
             this.textBoxNum6y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6y.Name = "textBoxNum6y";
             this.textBoxNum6y.Size = new System.Drawing.Size(100, 53);
@@ -863,7 +868,7 @@ namespace kakurosTest
             // 
             this.textBoxNum2x6y.Enabled = false;
             this.textBoxNum2x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x6y.Location = new System.Drawing.Point(286, 560);
+            this.textBoxNum2x6y.Location = new System.Drawing.Point(284, 559);
             this.textBoxNum2x6y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x6y.Name = "textBoxNum2x6y";
             this.textBoxNum2x6y.Size = new System.Drawing.Size(100, 53);
@@ -875,7 +880,7 @@ namespace kakurosTest
             // 
             this.textBoxNum3x6y.Enabled = false;
             this.textBoxNum3x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x6y.Location = new System.Drawing.Point(404, 562);
+            this.textBoxNum3x6y.Location = new System.Drawing.Point(400, 559);
             this.textBoxNum3x6y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x6y.Name = "textBoxNum3x6y";
             this.textBoxNum3x6y.Size = new System.Drawing.Size(100, 53);
@@ -887,7 +892,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x4y.Enabled = false;
             this.textBoxNum4x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x4y.Location = new System.Drawing.Point(522, 423);
+            this.textBoxNum4x4y.Location = new System.Drawing.Point(516, 423);
             this.textBoxNum4x4y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x4y.Name = "textBoxNum4x4y";
             this.textBoxNum4x4y.Size = new System.Drawing.Size(100, 53);
@@ -899,7 +904,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x4y.Enabled = false;
             this.textBoxNum5x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x4y.Location = new System.Drawing.Point(640, 423);
+            this.textBoxNum5x4y.Location = new System.Drawing.Point(632, 423);
             this.textBoxNum5x4y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x4y.Name = "textBoxNum5x4y";
             this.textBoxNum5x4y.Size = new System.Drawing.Size(100, 53);
@@ -911,7 +916,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6x4y.Enabled = false;
             this.textBoxNum6x4y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6x4y.Location = new System.Drawing.Point(758, 421);
+            this.textBoxNum6x4y.Location = new System.Drawing.Point(748, 423);
             this.textBoxNum6x4y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6x4y.Name = "textBoxNum6x4y";
             this.textBoxNum6x4y.Size = new System.Drawing.Size(100, 53);
@@ -923,7 +928,7 @@ namespace kakurosTest
             // 
             this.textBox33.Enabled = false;
             this.textBox33.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(876, 421);
+            this.textBox33.Location = new System.Drawing.Point(864, 423);
             this.textBox33.Margin = new System.Windows.Forms.Padding(4);
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(100, 53);
@@ -935,7 +940,7 @@ namespace kakurosTest
             // 
             this.textBox32.Enabled = false;
             this.textBox32.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(994, 421);
+            this.textBox32.Location = new System.Drawing.Point(980, 423);
             this.textBox32.Margin = new System.Windows.Forms.Padding(4);
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(100, 53);
@@ -947,7 +952,7 @@ namespace kakurosTest
             // 
             this.textBox31.Enabled = false;
             this.textBox31.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(1112, 417);
+            this.textBox31.Location = new System.Drawing.Point(1096, 423);
             this.textBox31.Margin = new System.Windows.Forms.Padding(4);
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(100, 53);
@@ -959,7 +964,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x5y.Enabled = false;
             this.textBoxNum4x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x5y.Location = new System.Drawing.Point(522, 494);
+            this.textBoxNum4x5y.Location = new System.Drawing.Point(516, 491);
             this.textBoxNum4x5y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x5y.Name = "textBoxNum4x5y";
             this.textBoxNum4x5y.Size = new System.Drawing.Size(100, 53);
@@ -971,7 +976,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x5y.Enabled = false;
             this.textBoxNum5x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x5y.Location = new System.Drawing.Point(640, 494);
+            this.textBoxNum5x5y.Location = new System.Drawing.Point(632, 491);
             this.textBoxNum5x5y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x5y.Name = "textBoxNum5x5y";
             this.textBoxNum5x5y.Size = new System.Drawing.Size(100, 53);
@@ -983,7 +988,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6x5y.Enabled = false;
             this.textBoxNum6x5y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6x5y.Location = new System.Drawing.Point(758, 490);
+            this.textBoxNum6x5y.Location = new System.Drawing.Point(748, 491);
             this.textBoxNum6x5y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6x5y.Name = "textBoxNum6x5y";
             this.textBoxNum6x5y.Size = new System.Drawing.Size(100, 53);
@@ -995,7 +1000,7 @@ namespace kakurosTest
             // 
             this.textBox27.Enabled = false;
             this.textBox27.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(876, 490);
+            this.textBox27.Location = new System.Drawing.Point(864, 491);
             this.textBox27.Margin = new System.Windows.Forms.Padding(4);
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(100, 53);
@@ -1007,7 +1012,7 @@ namespace kakurosTest
             // 
             this.textBox26.Enabled = false;
             this.textBox26.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(994, 490);
+            this.textBox26.Location = new System.Drawing.Point(980, 491);
             this.textBox26.Margin = new System.Windows.Forms.Padding(4);
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(100, 53);
@@ -1019,7 +1024,7 @@ namespace kakurosTest
             // 
             this.textBox25.Enabled = false;
             this.textBox25.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(1112, 488);
+            this.textBox25.Location = new System.Drawing.Point(1096, 491);
             this.textBox25.Margin = new System.Windows.Forms.Padding(4);
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(100, 53);
@@ -1031,7 +1036,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x6y.Enabled = false;
             this.textBoxNum4x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x6y.Location = new System.Drawing.Point(522, 563);
+            this.textBoxNum4x6y.Location = new System.Drawing.Point(516, 559);
             this.textBoxNum4x6y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x6y.Name = "textBoxNum4x6y";
             this.textBoxNum4x6y.Size = new System.Drawing.Size(100, 53);
@@ -1043,7 +1048,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x6y.Enabled = false;
             this.textBoxNum5x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x6y.Location = new System.Drawing.Point(640, 563);
+            this.textBoxNum5x6y.Location = new System.Drawing.Point(632, 559);
             this.textBoxNum5x6y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x6y.Name = "textBoxNum5x6y";
             this.textBoxNum5x6y.Size = new System.Drawing.Size(100, 53);
@@ -1055,7 +1060,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6x6y.Enabled = false;
             this.textBoxNum6x6y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6x6y.Location = new System.Drawing.Point(758, 562);
+            this.textBoxNum6x6y.Location = new System.Drawing.Point(748, 559);
             this.textBoxNum6x6y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6x6y.Name = "textBoxNum6x6y";
             this.textBoxNum6x6y.Size = new System.Drawing.Size(100, 53);
@@ -1067,7 +1072,7 @@ namespace kakurosTest
             // 
             this.textBox21.Enabled = false;
             this.textBox21.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(876, 562);
+            this.textBox21.Location = new System.Drawing.Point(864, 559);
             this.textBox21.Margin = new System.Windows.Forms.Padding(4);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(100, 53);
@@ -1079,7 +1084,7 @@ namespace kakurosTest
             // 
             this.textBox20.Enabled = false;
             this.textBox20.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(994, 562);
+            this.textBox20.Location = new System.Drawing.Point(980, 559);
             this.textBox20.Margin = new System.Windows.Forms.Padding(4);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(100, 53);
@@ -1091,7 +1096,7 @@ namespace kakurosTest
             // 
             this.textBox19.Enabled = false;
             this.textBox19.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(1112, 560);
+            this.textBox19.Location = new System.Drawing.Point(1096, 559);
             this.textBox19.Margin = new System.Windows.Forms.Padding(4);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(100, 53);
@@ -1285,7 +1290,7 @@ namespace kakurosTest
             // 
             this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(1112, 768);
+            this.textBox1.Location = new System.Drawing.Point(1096, 763);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 53);
@@ -1297,7 +1302,7 @@ namespace kakurosTest
             // 
             this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(994, 770);
+            this.textBox2.Location = new System.Drawing.Point(980, 763);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 53);
@@ -1309,7 +1314,7 @@ namespace kakurosTest
             // 
             this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(876, 770);
+            this.textBox3.Location = new System.Drawing.Point(864, 763);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 53);
@@ -1321,7 +1326,7 @@ namespace kakurosTest
             // 
             this.textBoxNum6x9y.Enabled = false;
             this.textBoxNum6x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum6x9y.Location = new System.Drawing.Point(758, 770);
+            this.textBoxNum6x9y.Location = new System.Drawing.Point(748, 763);
             this.textBoxNum6x9y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum6x9y.Name = "textBoxNum6x9y";
             this.textBoxNum6x9y.Size = new System.Drawing.Size(100, 53);
@@ -1333,7 +1338,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x9y.Enabled = false;
             this.textBoxNum5x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x9y.Location = new System.Drawing.Point(640, 771);
+            this.textBoxNum5x9y.Location = new System.Drawing.Point(632, 763);
             this.textBoxNum5x9y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x9y.Name = "textBoxNum5x9y";
             this.textBoxNum5x9y.Size = new System.Drawing.Size(100, 53);
@@ -1345,7 +1350,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x9y.Enabled = false;
             this.textBoxNum4x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x9y.Location = new System.Drawing.Point(522, 771);
+            this.textBoxNum4x9y.Location = new System.Drawing.Point(516, 763);
             this.textBoxNum4x9y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x9y.Name = "textBoxNum4x9y";
             this.textBoxNum4x9y.Size = new System.Drawing.Size(100, 53);
@@ -1357,7 +1362,7 @@ namespace kakurosTest
             // 
             this.textBox39.Enabled = false;
             this.textBox39.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.Location = new System.Drawing.Point(1112, 696);
+            this.textBox39.Location = new System.Drawing.Point(1096, 695);
             this.textBox39.Margin = new System.Windows.Forms.Padding(4);
             this.textBox39.Name = "textBox39";
             this.textBox39.Size = new System.Drawing.Size(100, 53);
@@ -1369,7 +1374,7 @@ namespace kakurosTest
             // 
             this.textBox43.Enabled = false;
             this.textBox43.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox43.Location = new System.Drawing.Point(994, 698);
+            this.textBox43.Location = new System.Drawing.Point(980, 695);
             this.textBox43.Margin = new System.Windows.Forms.Padding(4);
             this.textBox43.Name = "textBox43";
             this.textBox43.Size = new System.Drawing.Size(100, 53);
@@ -1381,7 +1386,7 @@ namespace kakurosTest
             // 
             this.textBox45.Enabled = false;
             this.textBox45.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox45.Location = new System.Drawing.Point(876, 698);
+            this.textBox45.Location = new System.Drawing.Point(864, 695);
             this.textBox45.Margin = new System.Windows.Forms.Padding(4);
             this.textBox45.Name = "textBox45";
             this.textBox45.Size = new System.Drawing.Size(100, 53);
@@ -1393,7 +1398,7 @@ namespace kakurosTest
             // 
             this.textBoxNum8x2y.Enabled = false;
             this.textBoxNum8x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum8x2y.Location = new System.Drawing.Point(758, 698);
+            this.textBoxNum8x2y.Location = new System.Drawing.Point(748, 695);
             this.textBoxNum8x2y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum8x2y.Name = "textBoxNum8x2y";
             this.textBoxNum8x2y.Size = new System.Drawing.Size(100, 53);
@@ -1405,7 +1410,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x8y.Enabled = false;
             this.textBoxNum5x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x8y.Location = new System.Drawing.Point(640, 702);
+            this.textBoxNum5x8y.Location = new System.Drawing.Point(632, 695);
             this.textBoxNum5x8y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x8y.Name = "textBoxNum5x8y";
             this.textBoxNum5x8y.Size = new System.Drawing.Size(100, 53);
@@ -1417,7 +1422,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x8y.Enabled = false;
             this.textBoxNum4x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x8y.Location = new System.Drawing.Point(522, 702);
+            this.textBoxNum4x8y.Location = new System.Drawing.Point(516, 695);
             this.textBoxNum4x8y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x8y.Name = "textBoxNum4x8y";
             this.textBoxNum4x8y.Size = new System.Drawing.Size(100, 53);
@@ -1429,7 +1434,7 @@ namespace kakurosTest
             // 
             this.textBox49.Enabled = false;
             this.textBox49.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox49.Location = new System.Drawing.Point(1112, 625);
+            this.textBox49.Location = new System.Drawing.Point(1096, 627);
             this.textBox49.Margin = new System.Windows.Forms.Padding(4);
             this.textBox49.Name = "textBox49";
             this.textBox49.Size = new System.Drawing.Size(100, 53);
@@ -1441,7 +1446,7 @@ namespace kakurosTest
             // 
             this.textBox50.Enabled = false;
             this.textBox50.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox50.Location = new System.Drawing.Point(994, 629);
+            this.textBox50.Location = new System.Drawing.Point(980, 627);
             this.textBox50.Margin = new System.Windows.Forms.Padding(4);
             this.textBox50.Name = "textBox50";
             this.textBox50.Size = new System.Drawing.Size(100, 53);
@@ -1453,7 +1458,7 @@ namespace kakurosTest
             // 
             this.textBox51.Enabled = false;
             this.textBox51.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox51.Location = new System.Drawing.Point(876, 629);
+            this.textBox51.Location = new System.Drawing.Point(864, 627);
             this.textBox51.Margin = new System.Windows.Forms.Padding(4);
             this.textBox51.Name = "textBox51";
             this.textBox51.Size = new System.Drawing.Size(100, 53);
@@ -1465,7 +1470,7 @@ namespace kakurosTest
             // 
             this.textBoxNum7x2y.Enabled = false;
             this.textBoxNum7x2y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum7x2y.Location = new System.Drawing.Point(758, 629);
+            this.textBoxNum7x2y.Location = new System.Drawing.Point(748, 627);
             this.textBoxNum7x2y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum7x2y.Name = "textBoxNum7x2y";
             this.textBoxNum7x2y.Size = new System.Drawing.Size(100, 53);
@@ -1477,7 +1482,7 @@ namespace kakurosTest
             // 
             this.textBoxNum5x7y.Enabled = false;
             this.textBoxNum5x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum5x7y.Location = new System.Drawing.Point(640, 631);
+            this.textBoxNum5x7y.Location = new System.Drawing.Point(632, 627);
             this.textBoxNum5x7y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum5x7y.Name = "textBoxNum5x7y";
             this.textBoxNum5x7y.Size = new System.Drawing.Size(100, 53);
@@ -1489,7 +1494,7 @@ namespace kakurosTest
             // 
             this.textBoxNum4x7y.Enabled = false;
             this.textBoxNum4x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum4x7y.Location = new System.Drawing.Point(522, 631);
+            this.textBoxNum4x7y.Location = new System.Drawing.Point(516, 627);
             this.textBoxNum4x7y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum4x7y.Name = "textBoxNum4x7y";
             this.textBoxNum4x7y.Size = new System.Drawing.Size(100, 53);
@@ -1501,7 +1506,7 @@ namespace kakurosTest
             // 
             this.textBoxNum3x9y.Enabled = false;
             this.textBoxNum3x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x9y.Location = new System.Drawing.Point(404, 770);
+            this.textBoxNum3x9y.Location = new System.Drawing.Point(400, 763);
             this.textBoxNum3x9y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x9y.Name = "textBoxNum3x9y";
             this.textBoxNum3x9y.Size = new System.Drawing.Size(100, 53);
@@ -1513,7 +1518,7 @@ namespace kakurosTest
             // 
             this.textBoxNum2x9y.Enabled = false;
             this.textBoxNum2x9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x9y.Location = new System.Drawing.Point(286, 768);
+            this.textBoxNum2x9y.Location = new System.Drawing.Point(284, 763);
             this.textBoxNum2x9y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x9y.Name = "textBoxNum2x9y";
             this.textBoxNum2x9y.Size = new System.Drawing.Size(100, 53);
@@ -1525,7 +1530,7 @@ namespace kakurosTest
             // 
             this.textBoxNum9y.Enabled = false;
             this.textBoxNum9y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum9y.Location = new System.Drawing.Point(168, 768);
+            this.textBoxNum9y.Location = new System.Drawing.Point(168, 763);
             this.textBoxNum9y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum9y.Name = "textBoxNum9y";
             this.textBoxNum9y.Size = new System.Drawing.Size(100, 53);
@@ -1537,7 +1542,7 @@ namespace kakurosTest
             // 
             this.textBoxNum3x8y.Enabled = false;
             this.textBoxNum3x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x8y.Location = new System.Drawing.Point(406, 700);
+            this.textBoxNum3x8y.Location = new System.Drawing.Point(400, 695);
             this.textBoxNum3x8y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x8y.Name = "textBoxNum3x8y";
             this.textBoxNum3x8y.Size = new System.Drawing.Size(100, 53);
@@ -1549,7 +1554,7 @@ namespace kakurosTest
             // 
             this.textBoxNum3x7y.Enabled = false;
             this.textBoxNum3x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum3x7y.Location = new System.Drawing.Point(404, 631);
+            this.textBoxNum3x7y.Location = new System.Drawing.Point(400, 627);
             this.textBoxNum3x7y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum3x7y.Name = "textBoxNum3x7y";
             this.textBoxNum3x7y.Size = new System.Drawing.Size(100, 53);
@@ -1561,7 +1566,7 @@ namespace kakurosTest
             // 
             this.textBoxNum2x8y.Enabled = false;
             this.textBoxNum2x8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x8y.Location = new System.Drawing.Point(288, 698);
+            this.textBoxNum2x8y.Location = new System.Drawing.Point(284, 695);
             this.textBoxNum2x8y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x8y.Name = "textBoxNum2x8y";
             this.textBoxNum2x8y.Size = new System.Drawing.Size(100, 53);
@@ -1573,7 +1578,7 @@ namespace kakurosTest
             // 
             this.textBoxNum8y.Enabled = false;
             this.textBoxNum8y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum8y.Location = new System.Drawing.Point(168, 698);
+            this.textBoxNum8y.Location = new System.Drawing.Point(168, 695);
             this.textBoxNum8y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum8y.Name = "textBoxNum8y";
             this.textBoxNum8y.Size = new System.Drawing.Size(100, 53);
@@ -1585,7 +1590,7 @@ namespace kakurosTest
             // 
             this.textBoxNum2x7y.Enabled = false;
             this.textBoxNum2x7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum2x7y.Location = new System.Drawing.Point(286, 631);
+            this.textBoxNum2x7y.Location = new System.Drawing.Point(284, 627);
             this.textBoxNum2x7y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum2x7y.Name = "textBoxNum2x7y";
             this.textBoxNum2x7y.Size = new System.Drawing.Size(100, 53);
@@ -1597,7 +1602,7 @@ namespace kakurosTest
             // 
             this.textBoxNum7y.Enabled = false;
             this.textBoxNum7y.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNum7y.Location = new System.Drawing.Point(168, 631);
+            this.textBoxNum7y.Location = new System.Drawing.Point(168, 627);
             this.textBoxNum7y.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNum7y.Name = "textBoxNum7y";
             this.textBoxNum7y.Size = new System.Drawing.Size(100, 53);
@@ -1605,24 +1610,89 @@ namespace kakurosTest
             this.textBoxNum7y.Tag = "9";
             this.textBoxNum7y.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label3
+            // labelNum5x
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(786, 154);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 45);
-            this.label3.TabIndex = 101;
-            this.label3.Tag = "";
-            this.label3.Text = "6";
+            this.labelNum5x.AutoSize = true;
+            this.labelNum5x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNum5x.Location = new System.Drawing.Point(668, 154);
+            this.labelNum5x.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNum5x.Name = "labelNum5x";
+            this.labelNum5x.Size = new System.Drawing.Size(39, 45);
+            this.labelNum5x.TabIndex = 101;
+            this.labelNum5x.Tag = "";
+            this.labelNum5x.Text = "6";
+            // 
+            // labelNum4x
+            // 
+            this.labelNum4x.AutoSize = true;
+            this.labelNum4x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNum4x.Location = new System.Drawing.Point(550, 154);
+            this.labelNum4x.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNum4x.Name = "labelNum4x";
+            this.labelNum4x.Size = new System.Drawing.Size(39, 45);
+            this.labelNum4x.TabIndex = 102;
+            this.labelNum4x.Tag = "";
+            this.labelNum4x.Text = "3";
+            // 
+            // labelNum6x
+            // 
+            this.labelNum6x.AutoSize = true;
+            this.labelNum6x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNum6x.Location = new System.Drawing.Point(786, 154);
+            this.labelNum6x.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNum6x.Name = "labelNum6x";
+            this.labelNum6x.Size = new System.Drawing.Size(39, 45);
+            this.labelNum6x.TabIndex = 103;
+            this.labelNum6x.Tag = "";
+            this.labelNum6x.Text = "6";
+            // 
+            // labelNum7x
+            // 
+            this.labelNum7x.AutoSize = true;
+            this.labelNum7x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNum7x.Location = new System.Drawing.Point(904, 154);
+            this.labelNum7x.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNum7x.Name = "labelNum7x";
+            this.labelNum7x.Size = new System.Drawing.Size(39, 45);
+            this.labelNum7x.TabIndex = 104;
+            this.labelNum7x.Tag = "";
+            this.labelNum7x.Text = "6";
+            // 
+            // labelNum8x
+            // 
+            this.labelNum8x.AutoSize = true;
+            this.labelNum8x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNum8x.Location = new System.Drawing.Point(1022, 154);
+            this.labelNum8x.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNum8x.Name = "labelNum8x";
+            this.labelNum8x.Size = new System.Drawing.Size(39, 45);
+            this.labelNum8x.TabIndex = 105;
+            this.labelNum8x.Tag = "";
+            this.labelNum8x.Text = "6";
+            // 
+            // labelNum9x
+            // 
+            this.labelNum9x.AutoSize = true;
+            this.labelNum9x.Font = new System.Drawing.Font("Calibri", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNum9x.Location = new System.Drawing.Point(1140, 154);
+            this.labelNum9x.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNum9x.Name = "labelNum9x";
+            this.labelNum9x.Size = new System.Drawing.Size(39, 45);
+            this.labelNum9x.TabIndex = 106;
+            this.labelNum9x.Tag = "";
+            this.labelNum9x.Text = "6";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1334, 1592);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelNum9x);
+            this.Controls.Add(this.labelNum8x);
+            this.Controls.Add(this.labelNum7x);
+            this.Controls.Add(this.labelNum6x);
+            this.Controls.Add(this.labelNum4x);
+            this.Controls.Add(this.labelNum5x);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
@@ -1858,7 +1928,12 @@ namespace kakurosTest
         private System.Windows.Forms.TextBox textBoxNum8y;
         private System.Windows.Forms.TextBox textBoxNum2x7y;
         private System.Windows.Forms.TextBox textBoxNum7y;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelNum5x;
+        private System.Windows.Forms.Label labelNum4x;
+        private System.Windows.Forms.Label labelNum6x;
+        private System.Windows.Forms.Label labelNum7x;
+        private System.Windows.Forms.Label labelNum8x;
+        private System.Windows.Forms.Label labelNum9x;
     }
 }
 
